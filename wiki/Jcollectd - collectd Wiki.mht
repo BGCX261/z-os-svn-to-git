@@ -1,0 +1,3018 @@
+From: "Mit Microsoft Internet Explorer 7 gespeichert"
+Subject: Jcollectd - collectd Wiki
+Date: Tue, 19 Jul 2011 13:39:43 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC4619.50CD99C0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6002.18463
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/wiki/index.php/Jcollectd
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den dir=3Dltr xml:lang=3D"en"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>Jcollectd - collectd =
+Wiki</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DUTF-8">
+<META http-equiv=3DContent-Style-Type content=3Dtext/css>
+<META content=3D"MSHTML 6.00.6002.18457" name=3DGENERATOR>
+<META content=3D"Jcollectd,Binary =
+protocol,Plugin:Java,Plugin:Network,GPLv2"=20
+name=3Dkeywords><LINK href=3D"/images/shortcut-icon.png" rel=3D"shortcut =
+icon"><LINK=20
+title=3D"collectd Wiki (en)" href=3D"/wiki/opensearch_desc.php"=20
+type=3Dapplication/opensearchdescription+xml rel=3Dsearch><LINK=20
+title=3D"Creative Commons"=20
+href=3D"/wiki/index.php?title=3DJcollectd&amp;action=3Dcreativecommons"=20
+type=3Dapplication/rdf+xml rel=3Dmeta><LINK=20
+href=3D"http://www.gnu.org/copyleft/fdl.html" rel=3Dcopyright><LINK=20
+title=3D"collectd Wiki RSS feed"=20
+href=3D"/wiki/index.php?title=3DSpecial:RecentChanges&amp;feed=3Drss"=20
+type=3Dapplication/rss+xml rel=3Dalternate><LINK title=3D"collectd Wiki =
+Atom feed"=20
+href=3D"/wiki/index.php?title=3DSpecial:RecentChanges&amp;feed=3Datom"=20
+type=3Dapplication/atom+xml rel=3Dalternate>
+<STYLE type=3Dtext/css media=3D"screen, projection">@import url( =
+/wiki/skins/common/shared.css?207 );
+@import url( /wiki/skins/lessantique/main.css?207 );
+</STYLE>
+<LINK media=3Dprint=20
+href=3D"http://collectd.org/wiki/skins/common/commonPrint.css?207" =
+type=3Dtext/css=20
+rel=3Dstylesheet><!--[if lt IE 5.5000]><style type=3D"text/css">@import =
+"/wiki/skins/lessantique/IE50Fixes.css?207";</style><![endif]--><!--[if =
+IE 5.5000]><style type=3D"text/css">@import =
+"/wiki/skins/lessantique/IE55Fixes.css?207";</style><![endif]--><!--[if =
+IE 6]><style type=3D"text/css">@import =
+"/wiki/skins/lessantique/IE60Fixes.css?207";</style><![endif]--><!--[if =
+IE 7]>
+<STYLE type=3Dtext/css>@import url( =
+/wiki/skins/lessantique/IE70Fixes.css?207 );
+</STYLE>
+<![endif]--><!--[if lt IE 7]><script type=3D"text/javascript" =
+src=3D"/wiki/skins/common/IEFixes.js?207"></script>=0A=
+		<meta http-equiv=3D"imagetoolbar" content=3D"no" /><![endif]-->
+<SCRIPT type=3Dtext/javascript>/*<![CDATA[*/=0A=
+		var skin =3D "lessantique";=0A=
+		var stylepath =3D "/wiki/skins";=0A=
+		var wgArticlePath =3D "/wiki/index.php/$1";=0A=
+		var wgScriptPath =3D "/wiki";=0A=
+		var wgScript =3D "/wiki/index.php";=0A=
+		var wgVariantArticlePath =3D false;=0A=
+		var wgActionPaths =3D {};=0A=
+		var wgServer =3D "http://collectd.org";=0A=
+		var wgCanonicalNamespace =3D "";=0A=
+		var wgCanonicalSpecialPageName =3D false;=0A=
+		var wgNamespaceNumber =3D 0;=0A=
+		var wgPageName =3D "Jcollectd";=0A=
+		var wgTitle =3D "Jcollectd";=0A=
+		var wgAction =3D "view";=0A=
+		var wgArticleId =3D "204";=0A=
+		var wgIsArticle =3D true;=0A=
+		var wgUserName =3D null;=0A=
+		var wgUserGroups =3D null;=0A=
+		var wgUserLanguage =3D "en";=0A=
+		var wgContentLanguage =3D "en";=0A=
+		var wgBreakFrames =3D false;=0A=
+		var wgCurRevisionId =3D 657;=0A=
+		var wgVersion =3D "1.15.5-1~bpo50+1";=0A=
+		var wgEnableAPI =3D true;=0A=
+		var wgEnableWriteAPI =3D true;=0A=
+		var wgSeparatorTransformTable =3D ["", ""];=0A=
+		var wgDigitTransformTable =3D ["", ""];=0A=
+		var wgRestrictionEdit =3D [];=0A=
+		var wgRestrictionMove =3D [];=0A=
+		/*]]>*/</SCRIPT>
+
+<SCRIPT src=3D"http://collectd.org/wiki/skins/common/wikibits.js?207"=20
+type=3Dtext/javascript><!-- wikibits js --></SCRIPT>
+<!-- Head Scripts -->
+<SCRIPT src=3D"http://collectd.org/wiki/skins/common/ajax.js?207"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT=20
+src=3D"http://collectd.org/wiki/index.php?title=3D-&amp;action=3Draw&amp;=
+gen=3Djs&amp;useskin=3Dlessantique"=20
+type=3Dtext/javascript><!-- site js --></SCRIPT>
+</HEAD>
+<BODY class=3D"mediawiki  ltr ns-0 ns-subject page-Jcollectd">
+<DIV id=3Dhead>
+<DIV id=3Dtitle><A title=3D"To start page" =
+href=3D"http://collectd.org/">
+<H1>collectd</H1></A></DIV>
+<DIV id=3Dmenu>
+<UL>
+  <LI><A title=3DHomepage href=3D"http://collectd.org/">Homepage</A> =
+</LI>
+  <LI class=3Dactive><A title=3DWiki =
+href=3D"http://collectd.org/wiki/">Wiki</A>=20
+</LI></UL></DIV></DIV>
+<DIV id=3Dbody_wrapper>
+<DIV id=3Dbody>
+<DIV id=3Dsplit>
+<DIV class=3Dtop></DIV>
+<DIV id=3Dleft>
+<DIV class=3Dcontent>
+<DIV>[<A title=3D"View the content page [c]" accessKey=3Dc=20
+href=3D"http://collectd.org/wiki/index.php/Jcollectd">Page</A>] [<A=20
+title=3D"Discussion about the content page [t]" accessKey=3Dt=20
+href=3D"http://collectd.org/wiki/index.php?title=3DTalk:Jcollectd&amp;act=
+ion=3Dedit&amp;redlink=3D1">Discussion</A>]=20
+[<A title=3D"This page is protected.&#10;You can view its source [e]" =
+accessKey=3De=20
+href=3D"http://collectd.org/wiki/index.php?title=3DJcollectd&amp;action=3D=
+edit">View=20
+source</A>] [<A title=3D"Past revisions of this page [h]" accessKey=3Dh=20
+href=3D"http://collectd.org/wiki/index.php?title=3DJcollectd&amp;action=3D=
+history">History</A>]=20
+</DIV>
+<HR>
+<A id=3Dtop name=3Dtop></A>
+<H1 class=3DfirstHeading>Jcollectd</H1>
+<DIV id=3DbodyContent>
+<H3 id=3DsiteSub>From collectd Wiki</H3>
+<DIV id=3DcontentSub></DIV>
+<DIV id=3Djump-to-nav>Jump to: <A=20
+href=3D"http://collectd.org/wiki/index.php/Jcollectd#column-one">navigati=
+on</A>,=20
+<A=20
+href=3D"http://collectd.org/wiki/index.php/Jcollectd#searchInput">search<=
+/A></DIV><!-- start content -->
+<P><B>jcollectd</B> is an implementation of <I>collectd's</I> network =
+protocol=20
+in pure Java and was the base of the Java <I>application programming=20
+interface</I> (API) used by the <A title=3DPlugin:Java=20
+href=3D"http://collectd.org/wiki/index.php/Plugin:Java">Java</A> plugin. =
+If was=20
+developed by <I>Doug MacEachern</I> of <I>Hyperic</I> and is licensed =
+under the=20
+<SPAN title=3D"GNU General Public License, version 2"><A =
+title=3DCategory:GPLv2=20
+href=3D"http://collectd.org/wiki/index.php/Category:GPLv2">GPLv2</A></SPA=
+N>. </P>
+<P>The code allows you to receive <I>MBeans</I> from any Java =
+application using=20
+the <I>Java management extensions</I> (JMX) and translate those values =
+into=20
+<I>collectd</I> metrics. Those are then transmitted over the network =
+using the=20
+<A title=3DPlugin:Network=20
+href=3D"http://collectd.org/wiki/index.php/Plugin:Network">Network</A> =
+plugin's <A=20
+title=3D"Binary protocol"=20
+href=3D"http://collectd.org/wiki/index.php/Binary_protocol">binary =
+protocol</A>.=20
+</P><A id=3DExternal_links name=3DExternal_links></A>
+<H2><SPAN class=3Dmw-headline>External links </SPAN></H2>
+<UL>
+  <LI><A class=3D"external free"=20
+  title=3Dhttp://support.hyperic.com/display/hypcomm/jcollectd=20
+  href=3D"http://support.hyperic.com/display/hypcomm/jcollectd"=20
+  =
+rel=3Dnofollow>http://support.hyperic.com/display/hypcomm/jcollectd</A><B=
+R><I>jcollectd's</I>=20
+  homepage=20
+  <LI><A class=3D"external free"=20
+  title=3Dhttp://github.com/hyperic/jcollectd/tree/master=20
+  href=3D"http://github.com/hyperic/jcollectd/tree/master"=20
+  =
+rel=3Dnofollow>http://github.com/hyperic/jcollectd/tree/master</A><BR>Git=
+=20
+  repository. Clone-URL: =
+<CODE>git://github.com/hyperic/jcollectd.git</CODE>=20
+  </LI></UL><!-- =0A=
+NewPP limit report=0A=
+Preprocessor node count: 10/1000000=0A=
+Post-expand include size: 102/2097152 bytes=0A=
+Template argument size: 0/2097152 bytes=0A=
+Expensive parser function count: 0/100=0A=
+--><!-- Saved in parser cache with key =
+collectd_wiki:pcache:idhash:204-0!1!0!!en!2!edit=3D0 and timestamp =
+20110719113219 -->
+<DIV class=3Dprintfooter>Retrieved from "<A=20
+href=3D"http://collectd.org/wiki/index.php/Jcollectd">http://collectd.org=
+/wiki/index.php/Jcollectd</A>"</DIV>
+<DIV id=3Dcatlinks>
+<DIV class=3Dcatlinks id=3Dcatlinks>
+<DIV id=3Dmw-normal-catlinks><A title=3DSpecial:Categories=20
+href=3D"http://collectd.org/wiki/index.php/Special:Categories">Category</=
+A>: <SPAN=20
+dir=3Dltr><A title=3DCategory:GPLv2=20
+href=3D"http://collectd.org/wiki/index.php/Category:GPLv2">GPLv2</A></SPA=
+N></DIV></DIV></DIV><!-- end content -->
+<DIV class=3DvisualClear></DIV></DIV></DIV><!-- class=3D"content" =
+--></DIV><!-- id=3D"left" -->
+<DIV id=3Dright>
+<DIV class=3Dcontent>
+<H4><LABEL for=3DsearchInput>Search</LABEL></H4>
+<FORM id=3Dsearchform action=3D/wiki/index.php/Special:Search><INPUT =
+id=3DsearchInput=20
+title=3D"Search collectd Wiki [f]" accessKey=3Df name=3Dsearch> <INPUT =
+class=3DsearchButton id=3DsearchGoButton title=3D"Go to a page with this =
+exact name if exists" type=3Dsubmit value=3DGo name=3Dgo>&nbsp;=20
+<INPUT class=3DsearchButton id=3Dmw-searchButton title=3D"Search the =
+pages for this text" type=3Dsubmit value=3DSearch name=3Dfulltext>=20
+</FORM>
+<HR>
+
+<H4>Personal tools</H4>
+<UL>
+  <LI id=3Dpt-login><A=20
+  title=3D"You are encouraged to log in; however, it is not mandatory =
+[o]"=20
+  accessKey=3Do=20
+  =
+href=3D"http://collectd.org/wiki/index.php?title=3DSpecial:UserLogin&amp;=
+returnto=3DJcollectd">Log=20
+  in / create account</A> </LI></UL>
+<SCRIPT type=3Dtext/javascript> if (window.isMSIE55) fixalpha(); =
+</SCRIPT>
+
+<HR>
+
+<DIV class=3Dportlet id=3Dp-navigation>
+<H4>Navigation</H4>
+<DIV class=3DpBody>
+<UL>
+  <LI id=3Dn-mainpage><A title=3D"Visit the main page"=20
+  href=3D"http://collectd.org/wiki/index.php/Main_Page">Main Page</A>=20
+  <LI id=3Dn-plugins-description><A=20
+  =
+href=3D"http://collectd.org/wiki/index.php/Table_of_Plugins">Plugins</A> =
+
+  <LI id=3Dn-recentchanges><A title=3D"The list of recent changes in the =
+wiki [r]"=20
+  accessKey=3Dr=20
+  =
+href=3D"http://collectd.org/wiki/index.php/Special:RecentChanges">Recent =
+
+  changes</A>=20
+  <LI id=3Dn-randompage><A title=3D"Load a random page [x]" =
+accessKey=3Dx=20
+  href=3D"http://collectd.org/wiki/index.php/Special:Random">Random =
+page</A>=20
+  <LI id=3Dn-help><A title=3D"The place to find out"=20
+  href=3D"http://collectd.org/wiki/index.php/Help:Contents">Help</A>=20
+</LI></UL></DIV></DIV>
+<HR>
+
+<DIV class=3Dportlet id=3Dp-tb>
+<H4>Toolbox</H4>
+<DIV class=3DpBody>
+<UL>
+  <LI id=3Dt-whatlinkshere><A title=3D"List of all wiki pages that link =
+here [j]"=20
+  accessKey=3Dj=20
+  =
+href=3D"http://collectd.org/wiki/index.php/Special:WhatLinksHere/Jcollect=
+d">What=20
+  links here</A>=20
+  <LI id=3Dt-recentchangeslinked><A=20
+  title=3D"Recent changes in pages linked from this page [k]" =
+accessKey=3Dk=20
+  =
+href=3D"http://collectd.org/wiki/index.php/Special:RecentChangesLinked/Jc=
+ollectd">Related=20
+  changes</A>=20
+  <LI id=3Dt-specialpages><A title=3D"List of all special pages [q]" =
+accessKey=3Dq=20
+  =
+href=3D"http://collectd.org/wiki/index.php/Special:SpecialPages">Special =
+
+  pages</A>=20
+  <LI id=3Dt-print><A title=3D"Printable version of this page [p]" =
+accessKey=3Dp=20
+  =
+href=3D"http://collectd.org/wiki/index.php?title=3DJcollectd&amp;printabl=
+e=3Dyes">Printable=20
+  version</A>=20
+  <LI id=3Dt-permalink><A title=3D"Permanent link to this revision of =
+the page"=20
+  =
+href=3D"http://collectd.org/wiki/index.php?title=3DJcollectd&amp;oldid=3D=
+657">Permanent=20
+  link</A> </LI></UL></DIV></DIV></DIV><!-- class=3D"content" =
+--></DIV><!-- id=3D"right" -->
+<DIV class=3Dclearer></DIV>
+<DIV class=3Dbottom></DIV></DIV><!-- id=3D"split" -->
+<DIV class=3Dclearer></DIV></DIV><!-- id=3D"body" -->
+<DIV class=3Dclearer></DIV></DIV><!-- id=3D"body_wrapper" -->
+<DIV id=3Dend_body></DIV>
+<DIV id=3Dfooter>
+<DIV id=3Df-poweredbyico><A href=3D"http://www.mediawiki.org/"><IMG=20
+alt=3D"Powered by MediaWiki"=20
+src=3D"http://collectd.org/wiki/skins/common/images/poweredby_mediawiki_8=
+8x31.png"></A></DIV>
+<DIV id=3Df-copyrightico><A =
+href=3D"http://www.gnu.org/copyleft/fdl.html"><IMG=20
+alt=3D"GNU Free Documentation License 1.2"=20
+src=3D"http://collectd.org/wiki/skins/common/images/gnu-fdl.png"></A></DI=
+V>
+<UL id=3Df-list>
+  <LI id=3Dlastmod>This page was last modified on 27 April 2009, at =
+21:18.=20
+  <LI id=3Dviewcount>This page has been accessed 2,230 times.=20
+  <LI id=3Dcopyright>Content is available under <A class=3D"external "=20
+  title=3Dhttp://www.gnu.org/copyleft/fdl.html=20
+  href=3D"http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation =
+License=20
+  1.2</A>.=20
+  <LI id=3Dprivacy><A title=3D"collectd Wiki:Privacy policy"=20
+  =
+href=3D"http://collectd.org/wiki/index.php/collectd_Wiki:Privacy_policy">=
+Privacy=20
+  policy</A>=20
+  <LI id=3Dabout><A title=3D"collectd Wiki:About"=20
+  href=3D"http://collectd.org/wiki/index.php/collectd_Wiki:About">About =
+collectd=20
+  Wiki</A>=20
+  <LI id=3Ddisclaimer><A title=3D"collectd Wiki:General disclaimer"=20
+  =
+href=3D"http://collectd.org/wiki/index.php/collectd_Wiki:General_disclaim=
+er">Disclaimers</A>=20
+  </LI></UL></DIV>
+<SCRIPT type=3Dtext/javascript>if (window.runOnloadHook) =
+runOnloadHook();</SCRIPT>
+
+<DIV></DIV><!-- Served in 0.292 secs. --></BODY></HTML>
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://collectd.org/wiki/skins/common/images/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAAAA3NCSVQICAjb4U/gAAAClFBMVEUC
+KWuqqtbmxQbRvxS1xc+BdgdzlKmEq76qqqpBeZ3HxHrt7OZbZ1LWxE0lX3hxeUWzq2nY3N5WhKPQ
+dQoAUIThyiSwrTY9RpT29vbGwqSjtsTHzdDAaQoAZplPepgATICdo6vp1Asyao7o59vO1NfQx2Ph
+2XiOkTeKjY3yzQnW1smGla7s2yNemLXflg06hK0wO3h2pLvm2D/1sgfn4akHV4uYscEbLHZEdphO
+hKauspWsrr4ObZ3q2RqqbRTWyS8haJa5xJuFhbgrS4Ipe6WrusXX0rXW1tY4cpfBztff2Zrlqg7w
+yhTIuEyFo7dSkbFskKjShg3Yyhj91geVrb7EvnPy3TXd0WchZZKHp7xmi6Ln1lLdxUWMm7ayv8fT
+zZbe3sm7w8/AcA7w8PDNtzQaW4YmJpoybZTOzcXe3taes8D0ywDh5OZAXIvo5Lzg14rk1zTPzr40
+gafr1RBJZJFCU1rbugvlziGWehNqnbd0nLWlvsv13hsIVIaRkqXF0NfwvANEiq0wToIYX4zgnRHm
+0A7UiRL36Efc4OJMf6PoxxqgpJXYzlX/yQYbdKGNkrv4xhHq4RLO1tzo0TKUbg5biqgGHXn31xDu
+3hnj12rHuUSclS1ijqzWzozm3IXsvxLZ2ebBag2ambbMfRU4dJvlpxG1chKdtcb05D3q6M2LpLXz
+3ynExc5ika/VnBnMzMze3t6mu8h8nbMiY42sv8ufq8AQWozGdBXgz0zWvQ6Oq77gsQlNepnDwMLo
+vQJSg6NGYY4XXIvc1644Q2fu2EdNVV31vAf3zwZ7p73m5uYpapTUfQ8AU4mboKarqK2UtMS6sEDR
+ymyVmYq5taFUWZrt0R/Hdg/L0dTBvnnOy4Hi2pLr2FEpPiAVAAAACXBIWXMAAArwAAAK8AFCrDSY
+AAAEkElEQVRIx+3Q+1tTdRwH8NNYzHkiPTQqmfMCA+MST0NDSiBM8uyEjYVcBoa4jsTtO8SNBDbm
+nGN2RgQBrQ1bGt6mY9SBM7nMS2DJ+k5yXUXwn+kckMT19Dz1ID/0PL1/OJ/P+Xy+39cPX2TNKgVZ
+882q5H94OTz7WGo21NTUzK48YXDl0funj1ZWPhkYX5aon6NiKt+o3PtlcnLyo6lPqzX78L+JdmGv
+dYeNw+HCwo7mwtL0yr3jpY/kWAneqsVDMrHYjbvFPrFbJlb7BDhbcIFbsrCXsbJaHQ57vd7ZWe+N
+uVt4lE7H4/F0jYmpzs4bOK72erlDw5JWs1lmFuThWT5JqEtmlmlb8wQCtrCthNtr2WGoQBAOa5pS
+xLteeHN9zJFOa1I9j7fV6XRePv7bLnFKk+YhLJg1D+MSvMBcYM5r7dJqW1txrphD+AKMD2eFCrr+
+8hTISSn+y+0N+DsRHbz66RMn6h09Pf392z7G8ZMId8jAXsZDeS+zzyEhsn4wsB0Lc4UdSri9Nk+L
+ZxWEwRiGTGJ48WFn+nvXbl5rb2/Pnw7odNb9X9zFsEkEYyM1cF8+9zVgfClGGDCCwLiC8bmp1GDg
+YwIJH1sWFqZpREPX/nj7cFLSJ9OnxsbGzn89HeANFu/spmkNQv/T+A2P/S7Bt04/39im23/xzsac
+nI3ntwesJWuf2fKv4LAswpP0obWFzj5nx6l7OS0tOc/lB/oS5z6sWCFMUYiGop76LmrQcfbepZan
+Wy7duRjoa6A+6KYoDUKxMVbVURQeVyWm/oznWXWcnV5o/YyaUmZS0mql3OOJ42bRRopiYQAQDQB3
+15W0JSWlDeR8xj5FfmBrScLtLQBoEMBmZsYFQOzoqBcAguAGJpPHok7xcA0N+BY/LVQBn6Vu5KC+
+mqalwLMJABaGEJmEDacjrNZ9DkfavYGB99tvHrMOJqx7HUINAtm8KmII6BJNSTE7w4wAMDIVZIKm
+SA8YsQRtNq8wGlNNSRWMSfnWiBBGy2nPdQgX4SZ4Zf22hO87fm8LbE97t/1Tx8REydwr5yBsWoQz
+GRkmzwxKXaO+MlHG8Kh+OJg7Kx/KMOpjgyJ+2QUfw2REuzCVQiFUGP1QKFqC96jhuZ33S2JSU/c5
++vqmz7ZlWz/69fNuqN6zCCtHbGV29r5FNWS32G02CA1BQq7nGt+Uz6SSK/1xU8NQ5feLRGUQfrsE
+V1Rcxb56qfhIX3Zzs+PB5aRj2Y3pPT8dx7CrFRUcPKPsZTYXuYPq3KAhZI91qTCoUJnkevsFCENG
+HxQa3YSI6QUsbGEuUEswiqLc7fj4+f4D8+m6+fGJiebUHWfGG1AUAJTLjB19TdTrtvRmWPRD1aZe
+VbV9NLdXPmQKCl0WIx/VjxLYlA2lVH6FTcoIUZcIRVmYfBgU3TGPHrBeKY2IOvPgAestLcjrHrKo
+HOVHY2TG5iofSRJMlUKBRXpQflVVUSRB8ssBiCwiQfnBWCVZxxAZm0hyGUyS8Sja2Yk2dO54+0pi
+A7myPAaTJNxdS5K3Dm2oJdEnCz+5sPCLq5L/JLxK+QOx6XbtY06PNgAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://collectd.org/wiki/skins/common/images/gnu-fdl.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAACoFBMVEUAAQAAAgABBAACBQEFCAQH
+CQUKDAgMDwsOEAwPEQ0RExASFBETFBIUFRMVFhQWGBUXGBYYGRcZGxgaHBkbHBocHRsdHxweHx0g
+IR8hIyAiJCEjJCIkJSMrLSovMS4yMzEzNDI0NjM1NzQ6Ozk9Pzw+QD1BQ0FXQiBYRCdGSEVaRSNH
+SUZISUdbRipcRypKS0ldSCteSSxMTktfSi1gSy5hTC9PUU5iTTBkTzFmUDNXWVZrVTdZW1htVzlb
+XVptWUBcXltuWkFdX1xvW0JwXENfYV5xXURgYl9zX0ZiZGF1YUh2YUh3Ykl4Y0p5ZEt2Z0x6ZUx4
+aU58Z059aE96a1Bsbmt7bFF/alFtb2x8bVJ9blNvcW5/clxzdXKCdV+Fd2B4eneGeGGHeWKIemOJ
+e2SKfGV+gH2Mfmd/gX6Agn+Bg4CPgWqChIGDhYKVgH2Fh4SMjouYjHqNj4yajnyPkY6UlpOilYOW
+mJWXmZalmIeam5immYinmomom4qpnIuqnYyeoJ2sn46toI+ipKGuopCto5avo5GkpqOwpJKlp6Sv
+pZimqKWwppqnqaaoqqeqrKm3rKC4raG5rqK6r6O7sKSytLG8sqW9s6a+tKe1t7TDuKu5u7i7vbrG
+u669v7zIwLnCxMHDxcLLw7zFx8TGyMXOxr/HycbIysfRyMHJy8jUzMTNz8vVzcbWzsfP0c7Xz8jQ
+0s/Y0MnR09DZ0crS1NHa0svc08zX1s3d1M3V19Tg2NDc3tvk3NXd39zm3dbe4N3h5ODo4+Lk5uPq
+5OPr5eTm6OXn6ebo6ufp6+jq7Onv6ujr7urx7Ort7+vu8O307u317+7w8u/x8/D38fDy9PHz9fL0
+9/P2+PT3+fb4+vf5+/j6/Pn/+vn7/fr8//v+//ybsc4MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+B3RJTUUH1AQLARkvVukrLgAAAB10RVh0Q29tbWVudABDcmVhdGVkIHdpdGggVGhlIEdJTVDvZCVu
+AAADnklEQVR42rWWh08UQRTGnWxAT7CXu7OhWE7BIMidvYBii8QuFmwIFuxir9gLxIaKIPauSE4P
+gi0qCaKggIDocYvk+1ec2T7ngYmESW7e7LvMb9+++ebNtNrSQq3VFlsTbeNt/GczgmMPO4vd7mJn
+6iwO/H5CJ+LXLhggJJ118k/umGFNsv4Db+l+HTzfqb8uf5EO/hhoOlfz8/FmNqWPLzBUm2sW7v4F
+HnwJqM5aExMZGZOUWQVcDlHBk8h+qHNJdlNgnCOh3mDHM4hn7GoCIk94kDdSAXcknzXwsAFNgkuJ
+yQsc8gwVi4yLNq8ceSEymJB6DXyH3PeZY+Wxnghe4AxURNtsu29++P675m3aWOoZX45MGdyelEjT
+pSn9hzcdcVceHAcxjlLUpRN3sLX0YKkEjiK7oK3ZVekNHUkZykjbv8AXyDQenI8z7Ps/HIpzhM3M
+oF5GPoZCWRUBrdNr3WqgvVm3nCTXrWcQDtzw1GJ6x4Fno8puyO92GjPNhr0KcyQdv5vQRfDrOkie
+clzKZbJFaL/Q7QUmphFvdGEzcCqucdvtIZBGTSaONnPnOZHEgROBt5J52UxwMWI48GjgBzXR+NRM
+sBsRHDiEZpGaCLhlHau1wLRV160qX2lkXuUBUiyCJYU+N2y1Cu1CJfAv2DnwKKBKAv+WwMriAA/8
+ZAvdSCNPblA8tvV1ia4gSt4Q/EIsuaqkYjoHXg04qZmMSg7sORvkGwwUdIDFRa3LAnQrMCxeIgd+
+AuyjJgn5airkL+5ZpKRCNwpYFCCIspUHUOSWZeQepHWO5eYaFZ0x4lrrjcYidvVSIrbSiF0aOBbV
+4ZJ+N8aE25fdo/lfSZ/s1VjA5zinW6VPsJjbbydS+haIBcE0x2v7PBZLz6tb+pTNUCt+JLCnk0zM
+HBhTxvhWRU+mhhSzYGW2PtksdF6sFaFYtpev0+pWXXjQwbgLRKxo/pmXgW9T+VOUls0s78OUqL0i
+VS36zbJ7b3cSOET1aoW+dL6RO7cchWGNghWpalkKeCSN/XM8X7JVr3401R9zqNiIo3UodNgaBStS
+1cCne9Sw8dDjDbpXO0wvArVX1k2MCI9OuEwXPyPM1jhYkaqmaURNYu66PePii1SvfvzPy9MRr1f4
+urDoEbv4iFFjTZfH93t7R8zazAPPi3+KX1+lLfF9E9LAilSNZSSAdkeKxBttfIH/dcVSNKBJVVMF
+/W8T7WaYifk8r4qWubu1UPsDRKKsETdMBFgAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/wiki/skins/common/shared.css?207
+
+.mw-plusminus-null {
+	COLOR: #aaa
+}
+.texvc {
+	DIRECTION: ltr; unicode-bidi: embed
+}
+IMG.tex {
+	VERTICAL-ALIGN: middle
+}
+SPAN.texhtml {
+	FONT-FAMILY: serif
+}
+.ontop#wikiPreview {
+	MARGIN-BOTTOM: 1em
+}
+#editform {
+	CLEAR: both
+}
+#toolbar {
+	CLEAR: both
+}
+#wpTextbox1 {
+	CLEAR: both
+}
+DIV#mw-js-message {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 2.5%; BORDER-TOP: #ddd 1px =
+solid; PADDING-LEFT: 2.5%; PADDING-BOTTOM: 0.5em; MARGIN: 1em 5%; =
+BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #ddd 1px =
+solid; BACKGROUND-COLOR: #fcfcfc
+}
+.editsection {
+	FLOAT: right; MARGIN-LEFT: 5px
+}
+TABLE.filehistory {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: =
+#ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.filehistory TH {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: =
+top; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc =
+1px solid
+}
+TABLE.filehistory TD {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: =
+top; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc =
+1px solid
+}
+TABLE.filehistory TH {
+	TEXT-ALIGN: left
+}
+TABLE.filehistory TD.mw-imagepage-filesize {
+	WHITE-SPACE: nowrap
+}
+TABLE.filehistory TH.mw-imagepage-filesize {
+	WHITE-SPACE: nowrap
+}
+TABLE.filehistory TD.filehistory-selected {
+	FONT-WEIGHT: bold
+}
+LI SPAN.deleted {
+	COLOR: #888; FONT-STYLE: italic; TEXT-DECORATION: line-through
+}
+SPAN.history-deleted {
+	COLOR: #888; FONT-STYLE: italic; TEXT-DECORATION: line-through
+}
+BODY.ltr TD.mw-label {
+	TEXT-ALIGN: right
+}
+BODY.ltr TD.mw-input {
+	TEXT-ALIGN: left
+}
+BODY.ltr TD.mw-submit {
+	TEXT-ALIGN: left
+}
+BODY.rtl TD.mw-label {
+	TEXT-ALIGN: left
+}
+BODY.rtl TD.mw-input {
+	TEXT-ALIGN: right
+}
+BODY.rtl TD.mw-submit {
+	TEXT-ALIGN: right
+}
+TD.mw-label {
+	VERTICAL-ALIGN: top
+}
+TD.mw-submit {
+	WHITE-SPACE: nowrap
+}
+BODY.rtl .thumbcaption {
+	TEXT-ALIGN: right
+}
+BODY.rtl .magnify {
+	FLOAT: left
+}
+BODY.ltr .thumbcaption {
+	TEXT-ALIGN: left
+}
+BODY.ltr .magnify {
+	FLOAT: right
+}
+.mw-hidden-cats-hidden {
+	DISPLAY: none
+}
+.catlinks-allhidden {
+	DISPLAY: none
+}
+P.mw-ipb-conveniencelinks {
+	FONT-SIZE: 90%; FLOAT: right
+}
+P.mw-protect-editreasons {
+	FONT-SIZE: 90%; FLOAT: right
+}
+P.mw-filedelete-editreasons {
+	FONT-SIZE: 90%; FLOAT: right
+}
+P.mw-delete-editreasons {
+	FONT-SIZE: 90%; FLOAT: right
+}
+DIV.searchresult {
+	FONT-SIZE: 95%; WIDTH: 38em
+}
+.mw-search-results LI {
+	PADDING-BOTTOM: 1em; LIST-STYLE-TYPE: none
+}
+.mw-search-result-data {
+	FONT-SIZE: 97%; COLOR: green
+}
+TD#mw-search-menu {
+	PADDING-LEFT: 6em; FONT-SIZE: 85%
+}
+DIV#mw-search-interwiki {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; =
+MARGIN-TOP: 2ex; FLOAT: right; BORDER-LEFT: #aaaaaa 1px solid; WIDTH: =
+18em; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+DIV#mw-search-interwiki LI {
+	FONT-SIZE: 95%
+}
+.mw-search-interwiki-more {
+	FONT-SIZE: 90%; FLOAT: right
+}
+SPAN.searchalttitle {
+	FONT-SIZE: 95%
+}
+DIV.searchdidyoumean {
+	MARGIN-TOP: 1ex; FONT-SIZE: 127%; MARGIN-BOTTOM: 1ex; COLOR: #c00
+}
+DIV.searchdidyoumean EM {
+	FONT-WEIGHT: bold
+}
+.searchmatch {
+	FONT-WEIGHT: bold
+}
+DIV.searchresults {
+	BORDER-RIGHT: darkblue 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: =
+darkblue 1px solid; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; =
+BORDER-LEFT: darkblue 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: =
+darkblue 1px solid
+}
+.mw-userrights-disabled {
+	COLOR: #888
+}
+TABLE.mw-userrights-groups * TD {
+	PADDING-RIGHT: 1.5em
+}
+TABLE.mw-userrights-groups * TH {
+	PADDING-RIGHT: 1.5em
+}
+.os-suggest {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; =
+FONT-SIZE: 95%; Z-INDEX: 99; LEFT: 0px; VISIBILITY: hidden; OVERFLOW-X: =
+hidden; OVERFLOW: auto; BORDER-LEFT: #aaaaaa 1px solid; WIDTH: 0px; =
+BORDER-BOTTOM: #aaaaaa 1px solid; POSITION: absolute; TOP: 0px; =
+BACKGROUND-COLOR: window
+}
+TABLE.os-suggest-results {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 95%; =
+BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; CURSOR: pointer; BORDER-COLLAPSE: =
+collapse; BORDER-RIGHT-WIDTH: 0px
+}
+TD.os-suggest-result {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: =
+windowtext; PADDING-TOP: 2px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: =
+window
+}
+TD.os-suggest-result-hl {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: =
+windowtext; PADDING-TOP: 2px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: =
+window
+}
+TD.os-suggest-result-hl {
+	COLOR: white; BACKGROUND-COLOR: #4c59a6
+}
+TD.os-suggest-result-hl-webkit {
+	COLOR: white; BACKGROUND-COLOR: #4c59a6
+}
+TD.os-suggest-result-hl {
+	COLOR: highlighttext; BACKGROUND-COLOR: highlight
+}
+.os-suggest-toggle {
+	FONT-SIZE: 65%; LEFT: 1ex; POSITION: relative
+}
+.os-suggest-toggle-def {
+	FONT-SIZE: 65%; LEFT: 0px; VISIBILITY: hidden; POSITION: absolute; TOP: =
+0px
+}
+.autocomment {
+	COLOR: gray
+}
+#pagehistory .history-user {
+	MARGIN-LEFT: 0.4em; MARGIN-RIGHT: 0.2em
+}
+#pagehistory SPAN.minor {
+	FONT-WEIGHT: bold
+}
+#pagehistory LI {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; =
+BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid
+}
+#pagehistory LI.selected {
+	BORDER-RIGHT: #aaa 1px dashed; BORDER-TOP: #aaa 1px dashed; =
+BORDER-LEFT: #aaa 1px dashed; BORDER-BOTTOM: #aaa 1px dashed; =
+BACKGROUND-COLOR: #f9f9f9
+}
+TABLE.mw-listgrouprights-table {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: =
+#ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.mw-statistics-table {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: =
+#ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.mw-tags-table {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: =
+#ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.mw-listgrouprights-table TR {
+	VERTICAL-ALIGN: top
+}
+TABLE.mw-listgrouprights-table TD {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #ccc =
+1px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.mw-listgrouprights-table TH {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #ccc =
+1px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.mw-statistics-table TD {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #ccc =
+1px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.mw-statistics-table TH {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #ccc =
+1px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.mw-tags-table TD {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #ccc =
+1px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.mw-tags-table TH {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #ccc =
+1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: #ccc =
+1px solid; PADDING-TOP: 0.5em; BORDER-BOTTOM: #ccc 1px solid
+}
+TD.mw-statistics-numbers {
+	TEXT-ALIGN: right
+}
+H4.mw-specialpagesgroup {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: =
+0.3em 0em 0em; PADDING-TOP: 2px; BACKGROUND-COLOR: #dcdcdc
+}
+.mw-specialpagerestricted {
+	FONT-WEIGHT: bold
+}
+#shared-image-dup {
+	FONT-STYLE: italic
+}
+#shared-image-conflict {
+	FONT-STYLE: italic
+}
+TABLE.mw-emailuser-table {
+	WIDTH: 98%
+}
+TD#mw-emailuser-sender {
+	FONT-WEIGHT: bold
+}
+TD#mw-emailuser-recipient {
+	FONT-WEIGHT: bold
+}
+TABLE#mw-prefixindex-list-table {
+	WIDTH: 98%; BACKGROUND-COLOR: transparent
+}
+TABLE#mw-prefixindex-nav-table {
+	WIDTH: 98%; BACKGROUND-COLOR: transparent
+}
+TD#mw-prefixindex-nav-form {
+	FONT-SIZE: smaller; MARGIN-BOTTOM: 1em; VERTICAL-ALIGN: top; =
+TEXT-ALIGN: right
+}
+DIV.mw-warning-with-logexcerpt {
+	BORDER-RIGHT: #2f6fab 2px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#2f6fab 2px solid; PADDING-LEFT: 3px; MARGIN-BOTTOM: 3px; =
+PADDING-BOTTOM: 3px; BORDER-LEFT: #2f6fab 2px solid; PADDING-TOP: 3px; =
+BORDER-BOTTOM: #2f6fab 2px solid
+}
+DIV.mw-warning-with-logexcerpt UL LI {
+	FONT-SIZE: 90%
+}
+SPAN.mw-revdelundel-link {
+	FONT-SIZE: smaller; FONT-FAMILY: monospace
+}
+STRONG.mw-revdelundel-link {
+	FONT-SIZE: smaller; FONT-FAMILY: monospace
+}
+A.feedlink {
+	PADDING-LEFT: 16px; BACKGROUND: url(images/feed-icon.png) no-repeat =
+left center
+}
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/css/style.css
+
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: =
+url(../images/bg.jpg) #f6f6f6 repeat-x left top; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS", Verdana, =
+sans-serif
+}
+#head {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(../images/header.jpg) #e4e4e4 no-repeat left top; PADDING-BOTTOM: =
+0px; MARGIN: 0px auto; WIDTH: 747px; PADDING-TOP: 0px; HEIGHT: 117px
+}
+#head #title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; FONT-SIZE: 30px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #fff; LINE-HEIGHT: 30px; =
+PADDING-TOP: 35px
+}
+#body_wrapper {
+	DISPLAY: block; BACKGROUND: url(../images/body_repeat.jpg) repeat-y =
+left top; MARGIN: 0px auto; WIDTH: 747px
+}
+#body {
+	PADDING-RIGHT: 20px; DISPLAY: block; PADDING-LEFT: 20px; MIN-HEIGHT: =
+343px; BACKGROUND: url(../images/body_top.jpg) no-repeat left top; =
+FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+#end_body {
+	DISPLAY: block; BACKGROUND: url(../images/body_bottom.jpg) no-repeat =
+left top; MARGIN: 0px auto; WIDTH: 747px; HEIGHT: 37px
+}
+.clearer {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+#all {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(../images/all_repeat.jpg) repeat-y left top; FLOAT: left; =
+PADDING-BOTTOM: 0px; WIDTH: 707px; PADDING-TOP: 0px
+}
+#all .top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(../images/all_top.jpg) no-repeat left top; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; WIDTH: 707px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+#all .bottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(../images/all_bottom.jpg) no-repeat left bottom; PADDING-BOTTOM: =
+0px; MARGIN: 0px; WIDTH: 707px; PADDING-TOP: 0px; HEIGHT: 21px
+}
+#split {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(../images/both_repeat.jpg) repeat-y left top; FLOAT: left; =
+PADDING-BOTTOM: 0px; WIDTH: 707px; PADDING-TOP: 0px
+}
+#split .top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(../images/both_top.jpg) no-repeat left top; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; WIDTH: 707px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+#split .bottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(../images/both_bottom.jpg) no-repeat left bottom; PADDING-BOTTOM: =
+0px; MARGIN: 0px; WIDTH: 707px; PADDING-TOP: 0px; HEIGHT: 21px
+}
+#left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: =
+0px; MARGIN: 0px; WIDTH: 538px; PADDING-TOP: 0px
+}
+#right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: =
+0px; MARGIN: 0px; WIDTH: 169px; PADDING-TOP: 0px
+}
+.content {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+#left .content {
+	PADDING-LEFT: 22px
+}
+#all .content {
+	PADDING-LEFT: 22px
+}
+#footer {
+	FONT-WEIGHT: bold; MARGIN: 0px auto; WIDTH: 747px; COLOR: #b05128; =
+TEXT-ALIGN: center
+}
+#footer A {
+	COLOR: #b05128
+}
+#right UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#right UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#right UL A {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 3px; DISPLAY: block; =
+PADDING-LEFT: 10px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #d2d2d2; =
+BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; WIDTH: =
+125px; COLOR: #000; PADDING-TOP: 3px; BORDER-RIGHT-WIDTH: 0px; =
+TEXT-DECORATION: none
+}
+#right UL A:hover {
+	BACKGROUND: #7f8d96; COLOR: #ffffff
+}
+#menu {
+	FLOAT: right; MARGIN: 15px 20px 0px 0px
+}
+#menu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+#menu UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#menu UL LI A {
+	DISPLAY: block; FONT-WEIGHT: bold; COLOR: #fff; BORDER-TOP-STYLE: none; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: =
+transparent; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+#menu UL LI A:link {
+	BACKGROUND-IMAGE: url(../images/menu_tabs.gif); WIDTH: 94px; COLOR: =
+#000; LINE-HEIGHT: 26px; PADDING-TOP: 7px; BACKGROUND-REPEAT: no-repeat; =
+HEIGHT: 26px
+}
+#menu UL LI A:visited {
+	BACKGROUND-IMAGE: url(../images/menu_tabs.gif); WIDTH: 94px; COLOR: =
+#000; LINE-HEIGHT: 26px; PADDING-TOP: 7px; BACKGROUND-REPEAT: no-repeat; =
+HEIGHT: 26px
+}
+#menu UL LI A:hover {
+	BACKGROUND-POSITION: 0px -33px; BACKGROUND-IMAGE: =
+url(../images/menu_tabs.gif); WIDTH: 94px; LINE-HEIGHT: 29px; =
+PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+#menu UL LI A:active {
+	BACKGROUND-POSITION: 0px -33px; BACKGROUND-IMAGE: =
+url(../images/menu_tabs.gif); WIDTH: 94px; LINE-HEIGHT: 29px; =
+PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+#menu UL LI.active A:hover {
+	BACKGROUND-POSITION: 0px -66px; BACKGROUND-IMAGE: =
+url(../images/menu_tabs.gif); WIDTH: 94px; COLOR: #b05128; LINE-HEIGHT: =
+29px; PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+#menu UL LI.active A:active {
+	BACKGROUND-POSITION: 0px -66px; BACKGROUND-IMAGE: =
+url(../images/menu_tabs.gif); WIDTH: 94px; COLOR: #b05128; LINE-HEIGHT: =
+29px; PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+#menu UL LI.active A:link {
+	BACKGROUND-POSITION: 0px -66px; BACKGROUND-IMAGE: =
+url(../images/menu_tabs.gif); WIDTH: 94px; COLOR: #b05128; LINE-HEIGHT: =
+29px; PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+#menu UL LI.active A:visited {
+	BACKGROUND-POSITION: 0px -66px; BACKGROUND-IMAGE: =
+url(../images/menu_tabs.gif); WIDTH: 94px; COLOR: #b05128; LINE-HEIGHT: =
+29px; PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+H1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: =
+bold; FONT-SIZE: 1.6em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; =
+COLOR: #d96b11; PADDING-TOP: 0px; BORDER-BOTTOM: 1px solid; =
+BACKGROUND-COLOR: transparent
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+1.5em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; COLOR: #333; =
+PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+1.4em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; COLOR: #76b7d7; =
+PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+1.3em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; COLOR: #333; =
+PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+1.2em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; COLOR: #9ad5f3; =
+PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: =
+1.1em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; COLOR: #d96b11; =
+LINE-HEIGHT: 150%; PADDING-TOP: 0px
+}
+.code {
+	BORDER-RIGHT: 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: 1px dashed; =
+DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: #f0ebe7; PADDING-BOTTOM: =
+5px; MARGIN: 5px 10px; BORDER-LEFT: 1px dashed; WIDTH: auto; COLOR: =
+#ad4c21; PADDING-TOP: 5px; BORDER-BOTTOM: 1px dashed; FONT-FAMILY: =
+Courier, 'Courier New', 'Andale Mono', Monaco, monospace
+}
+CODE {
+	BORDER-RIGHT: 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: 1px dashed; =
+DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: #f0ebe7; PADDING-BOTTOM: =
+5px; MARGIN: 5px 10px; BORDER-LEFT: 1px dashed; WIDTH: auto; COLOR: =
+#ad4c21; PADDING-TOP: 5px; BORDER-BOTTOM: 1px dashed; FONT-FAMILY: =
+Courier, 'Courier New', 'Andale Mono', Monaco, monospace
+}
+PRE {
+	WHITE-SPACE: normal
+}
+A {
+	PADDING-BOTTOM: 0px; COLOR: #ad4c21; BORDER-BOTTOM: 1px dashed; =
+TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000
+}
+HR {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM: #f0ebe7 =
+1px dashed; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px
+}
+#left HR {
+	MARGIN: 10px 0px
+}
+#all HR {
+	MARGIN: 10px 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+FORM .item {
+	CLEAR: left; BORDER-TOP: #eee 1px solid; MARGIN: 3px
+}
+FORM .label {
+	CLEAR: left; FLOAT: left; WIDTH: 150px
+}
+INPUT {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: 1px solid; =
+PADDING-LEFT: 2px; BACKGROUND: #f0ebe7; PADDING-BOTTOM: 2px; MARGIN: =
+3px; BORDER-LEFT: 1px solid; COLOR: #ad4c21; PADDING-TOP: 2px; =
+BORDER-BOTTOM: 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: 1px solid; =
+PADDING-LEFT: 2px; BACKGROUND: #f0ebe7; PADDING-BOTTOM: 2px; MARGIN: =
+3px; BORDER-LEFT: 1px solid; COLOR: #ad4c21; PADDING-TOP: 2px; =
+BORDER-BOTTOM: 1px solid
+}
+SELECT {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: 1px solid; =
+PADDING-LEFT: 2px; BACKGROUND: #f0ebe7; PADDING-BOTTOM: 2px; MARGIN: =
+3px; BORDER-LEFT: 1px solid; COLOR: #ad4c21; PADDING-TOP: 2px; =
+BORDER-BOTTOM: 1px solid
+}
+BLOCKQUOTE {
+	PADDING-LEFT: 37px; BACKGROUND: url(../images/quotes.png) no-repeat =
+left top; MARGIN: 5px
+}
+DEL {
+	COLOR: #800; TEXT-DECORATION: line-through
+}
+DT {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.05em; COLOR: #ad4c21
+}
+DD {
+	MARGIN-LEFT: 15px
+}
+A[target]:unknown {
+	content: " " url(../images/externalpage.gif)
+}
+BLOCKQUOTE[cite]:unknown {
+	PADDING-RIGHT: 0px; BORDER-TOP: #999 1px solid; DISPLAY: block; =
+PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 0.8em; PADDING-BOTTOM: =
+0px; MARGIN: 1em 0px 0px; COLOR: #999; PADDING-TOP: 0.5em; content: =
+"Quote from: " attr(cite)
+}
+.code .key1 {
+	FONT-WEIGHT: 700; COLOR: #009
+}
+.code .key2 {
+	COLOR: #009
+}
+.code .key3 {
+	COLOR: #909
+}
+.code .key4 {
+	COLOR: #00b0b0
+}
+.code .key5 {
+	COLOR: #f0f
+}
+.code .key6 {
+	COLOR: #d0d000
+}
+.code .key7 {
+	COLOR: #d0d000
+}
+.code .key8 {
+	COLOR: #d0d000
+}
+.code .string {
+	COLOR: #282
+}
+.code .number {
+	FONT-WEIGHT: 700; COLOR: #000
+}
+.code .comment {
+	COLOR: #aaa
+}
+.code TH {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 1em; VERTICAL-ALIGN: top; =
+TEXT-ALIGN: left
+}
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/css/custom.css
+
+BODY {
+	FONT-SIZE: 12px; BACKGROUND-IMAGE: url(images/bg.jpg); COLOR: black; =
+FONT-FAMILY: sans-serif
+}
+#head {
+	BACKGROUND-IMAGE: url(images/header_background_900.png); WIDTH: 900px; =
+POSITION: relative
+}
+#head #title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 39px; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; PADDING-TOP: 0px; POSITION: absolute; TOP: 50px
+}
+#title A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; =
+BACKGROUND-IMAGE: url(images/header_logo.png); PADDING-BOTTOM: 0px; =
+MARGIN: 0px; WIDTH: 175px; PADDING-TOP: 0px; HEIGHT: 55px
+}
+#title A H1 {
+	DISPLAY: none
+}
+#body_wrapper {
+	BACKGROUND-IMAGE: url(images/body_repeat_900.png); WIDTH: 900px
+}
+#body {
+	BACKGROUND-IMAGE: url(images/body_top_logo_900.png)
+}
+#end_body {
+	BACKGROUND-IMAGE: url(images/body_bottom_900.png); WIDTH: 900px
+}
+#all {
+	BACKGROUND-IMAGE: url(images/all_repeat.jpg)
+}
+#all .top {
+	BACKGROUND-IMAGE: url(images/all_top.jpg)
+}
+#all .bottom {
+	BACKGROUND-IMAGE: url(images/all_bottom.jpg)
+}
+#split {
+	BACKGROUND-IMAGE: url(images/both_repeat_900.png); WIDTH: 860px
+}
+#split .top {
+	BACKGROUND-IMAGE: url(images/both_top_900.png); WIDTH: 860px
+}
+#split .bottom {
+	BACKGROUND-IMAGE: url(images/both_bottom_900.png); WIDTH: 860px
+}
+#left {
+	WIDTH: 670px
+}
+#left .content {
+	OVERFLOW: hidden
+}
+#right {
+	WIDTH: 190px
+}
+#right .content {
+	PADDING-LEFT: 10px
+}
+#menu {
+	RIGHT: 20px; FLOAT: none; MARGIN: 0px; BOTTOM: 4px; POSITION: absolute
+}
+#menu UL LI A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+#menu UL LI A:link {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+#menu UL LI A:visited {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+#menu UL LI A:hover {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+#menu UL LI A:active {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+#menu UL LI.active A:hover {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+#menu UL LI.active A:active {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+#menu UL LI.active A:link {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+#menu UL LI.active A:visited {
+	BACKGROUND-IMAGE: url(images/menu_tabs.gif)
+}
+H3 {
+	COLOR: #333
+}
+CODE {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; BACKGROUND: =
+none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+BORDER-TOP-STYLE: none; PADDING-TOP: 0px; FONT-FAMILY: monospace; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+PRE {
+	BORDER-RIGHT: 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: 1px dashed; =
+PADDING-LEFT: 5px; BACKGROUND: #f0ebe7; PADDING-BOTTOM: 5px; MARGIN: 5px =
+10px; BORDER-LEFT: 1px dashed; COLOR: #ad4c21; PADDING-TOP: 5px; =
+BORDER-BOTTOM: 1px dashed; WHITE-SPACE: pre
+}
+A {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+INPUT {
+	COLOR: black; BACKGROUND-COLOR: #f8f8f8
+}
+TEXTAREA {
+	COLOR: black; BACKGROUND-COLOR: #f8f8f8
+}
+SELECT {
+	COLOR: black; BACKGROUND-COLOR: #f8f8f8
+}
+BLOCKQUOTE {
+	BACKGROUND-IMAGE: url(images/quotes.png)
+}
+A[href^=3D'http://'] {
+	BACKGROUND-POSITION: left center; PADDING-LEFT: 10px; BACKGROUND-IMAGE: =
+url(../images/link-extern.png); BACKGROUND-REPEAT: no-repeat
+}
+A[href^=3D'/wiki/'] {
+	BACKGROUND-POSITION: left center; PADDING-LEFT: 10px; BACKGROUND-IMAGE: =
+url(../images/link-wiki.png); BACKGROUND-REPEAT: no-repeat
+}
+A {
+	COLOR: #0e6d9d
+}
+DIV.content DIV.float {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0.5ex; BORDER-TOP: gray =
+1px solid; PADDING-LEFT: 0.5ex; PADDING-BOTTOM: 0.5ex; BORDER-LEFT: gray =
+1px solid; PADDING-TOP: 0.5ex; BORDER-BOTTOM: gray 1px solid
+}
+DIV.content DIV.left.float {
+	FLOAT: left; MARGIN: 10px 1ex 1ex 0px
+}
+DIV.content DIV.right.float {
+	FLOAT: right; MARGIN: 0px 0px 1ex 1ex
+}
+DIV.content DIV.float DIV.caption {
+	FONT-SIZE: smaller; TEXT-ALIGN: center
+}
+DIV.box {
+	BORDER-RIGHT: #89afd1 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#89afd1 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1ex =
+0px; BORDER-LEFT: #89afd1 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: =
+#89afd1 1px solid
+}
+DIV.box DIV.title {
+	PADDING-RIGHT: 1ex; PADDING-LEFT: 1ex; FONT-WEIGHT: bold; =
+PADDING-BOTTOM: 0.5ex; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 0.5ex; =
+BORDER-BOTTOM: #89afd1 1px solid; BACKGROUND-COLOR: #f0f8ff
+}
+DIV.box DIV.content {
+	PADDING-RIGHT: 1ex; PADDING-LEFT: 1ex; PADDING-BOTTOM: 0.5ex; MARGIN: =
+0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0.5ex; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+DIV.version3.box {
+	BORDER-LEFT-COLOR: maroon; BORDER-BOTTOM-COLOR: maroon; =
+BORDER-TOP-COLOR: maroon; BACKGROUND-COLOR: rgb(255,248,248); =
+BORDER-RIGHT-COLOR: maroon
+}
+DIV.version3.box DIV.title {
+	BORDER-BOTTOM-COLOR: maroon; COLOR: white; BACKGROUND-COLOR: maroon
+}
+DIV.version4.box {
+	BORDER-LEFT-COLOR: green; BORDER-BOTTOM-COLOR: green; BORDER-TOP-COLOR: =
+green; BACKGROUND-COLOR: rgb(248,255,248); BORDER-RIGHT-COLOR: green
+}
+DIV.version4.box DIV.title {
+	BORDER-BOTTOM-COLOR: green; COLOR: white; BACKGROUND-COLOR: green
+}
+#left UL.news {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#left UL.news .date {
+	MARGIN-RIGHT: 1em; FONT-STYLE: italic
+}
+#left UL.news .title {
+	FONT-WEIGHT: bold
+}
+#left UL.news .detail {
+	BORDER-TOP: #89afd1 1px solid; DISPLAY: block; PADDING-LEFT: 1em; =
+MARGIN-BOTTOM: 2em; PADDING-TOP: 0.5ex
+}
+#right UL.news .date {
+	FONT-SIZE: 80%; FONT-STYLE: italic
+}
+UL.faq {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.faq .question {
+	FONT-WEIGHT: bold; MARGIN-BOTTOM: 1ex
+}
+UL.faq .answer {
+	PADDING-LEFT: 1em; MARGIN-BOTTOM: 1.5em
+}
+.email SPAN {
+	DISPLAY: none
+}
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/css/wiki.css
+
+A[href^=3D'/wiki/'] {
+	PADDING-LEFT: 0px; BACKGROUND-IMAGE: none
+}
+A.new {
+	COLOR: red
+}
+H2 {
+	MARGIN-TOP: 5px
+}
+H3 {
+	MARGIN-TOP: 5px
+}
+H4 {
+	MARGIN-TOP: 5px
+}
+#searchInput {
+	MAX-WIDTH: 130px
+}
+#wpTextbox1 {
+	MAX-WIDTH: 495px
+}
+.editsection {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: black
+}
+.thumb {
+	BORDER-RIGHT: #89afd1 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: =
+#89afd1 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px; =
+BORDER-LEFT: #89afd1 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #89afd1 =
+1px solid; BACKGROUND-COLOR: #f8f8f8
+}
+.tleft.thumb {
+	FLOAT: left
+}
+.tright.thumb {
+	FLOAT: right
+}
+.thumb .thumbcaption {
+	FONT-SIZE: 75%
+}
+.floatright {
+	FLOAT: right
+}
+#toc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+#toc TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+#toc #toctitle {
+	BORDER-RIGHT: #89afd1 1px solid; PADDING-RIGHT: 0.4ex; BORDER-TOP: =
+#89afd1 1px solid; PADDING-LEFT: 0.4ex; PADDING-BOTTOM: 0.4ex; MARGIN: =
+0px; BORDER-LEFT: #89afd1 1px solid; PADDING-TOP: 0.4ex; BORDER-BOTTOM: =
+#89afd1 1px solid; BACKGROUND-COLOR: #f0f8ff
+}
+#toc TD > UL {
+	BORDER-RIGHT: #89afd1 1px solid; PADDING-RIGHT: 0.4ex; BORDER-TOP: =
+#89afd1 1px; PADDING-LEFT: 0.4ex; PADDING-BOTTOM: 0.4ex; MARGIN: 0px; =
+BORDER-LEFT: #89afd1 1px solid; PADDING-TOP: 0.4ex; BORDER-BOTTOM: =
+#89afd1 1px solid
+}
+#toc H2 {
+	DISPLAY: inline; FONT-SIZE: 100%
+}
+#toc UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#toc UL UL {
+	MARGIN: 0px 0px 0px 2em
+}
+#toc UL A {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+#toc .tocnumber {
+	COLOR: black
+}
+#jump-to-nav {
+	FONT-SIZE: smaller; MARGIN-LEFT: 2em
+}
+#siteSub {
+	DISPLAY: none
+}
+#catlinks {
+	BORDER-TOP: #f0ebe7 1px dashed
+}
+
+@media Screen   =20
+{
+.printfooter {
+	DISPLAY: none
+}
+    }
+.mw-geshi {
+	BORDER-RIGHT: #89afd1 1px dashed; PADDING-RIGHT: 0.5ex; BORDER-TOP: =
+#89afd1 1px dashed; PADDING-LEFT: 0.5ex; PADDING-BOTTOM: 0.5ex; =
+BORDER-LEFT: #89afd1 1px dashed; PADDING-TOP: 0.5ex; BORDER-BOTTOM: =
+#89afd1 1px dashed; BACKGROUND-COLOR: #f8f8f8
+}
+TABLE.with_background {
+	BORDER-COLLAPSE: collapse
+}
+TABLE.with_background TD {
+	BORDER-RIGHT: #89afd1 1px solid; BORDER-TOP: #89afd1 1px solid; =
+BORDER-LEFT: #89afd1 1px solid; BORDER-BOTTOM: #89afd1 1px solid; =
+BACKGROUND-COLOR: #f8f8f8
+}
+TABLE.with_background TH {
+	BORDER-RIGHT: #89afd1 1px solid; BORDER-TOP: #89afd1 1px solid; =
+BORDER-LEFT: #89afd1 1px solid; BORDER-BOTTOM: #89afd1 1px solid; =
+BACKGROUND-COLOR: #d2d2d2
+}
+#mainpage_menu {
+	WIDTH: 100%
+}
+#mainpage_menu TD {
+	BORDER-RIGHT: #89afd1 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#89afd1 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+VERTICAL-ALIGN: top; BORDER-LEFT: #89afd1 1px solid; WIDTH: 50%; =
+PADDING-TOP: 0px; BORDER-BOTTOM: #89afd1 1px solid
+}
+#mainpage_menu TD H2 {
+	PADDING-RIGHT: 0.5ex; PADDING-LEFT: 0.5ex; PADDING-BOTTOM: 0.5ex; =
+MARGIN: 0px; PADDING-TOP: 0.5ex; BORDER-BOTTOM: #89afd1 1px solid; =
+BACKGROUND-COLOR: #f0f8ff
+}
+#mainpage_menu .box_body {
+	PADDING-RIGHT: 0.5ex; PADDING-LEFT: 0.5ex; PADDING-BOTTOM: 0.5ex; =
+MARGIN: 0px; PADDING-TOP: 0.5ex
+}
+#mainpage_menu .box_body P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DEL.diffchange {
+	FONT-WEIGHT: bold; COLOR: red; BACKGROUND-COLOR: #fff0f0; =
+TEXT-DECORATION: none
+}
+INS.diffchange {
+	FONT-WEIGHT: bold; COLOR: green; BACKGROUND-COLOR: #f0fff0; =
+TEXT-DECORATION: none
+}
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: 7bit
+Content-Location: http://collectd.org/wiki/skins/lessantique/main.css?207
+
+@import url( /css/style.css );
+@import url( /css/custom.css );
+@import url( /css/wiki.css );
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/wiki/skins/common/commonPrint.css?207
+
+A.stub {
+	COLOR: #ba0000; TEXT-DECORATION: none
+}
+A.new {
+	COLOR: #ba0000; TEXT-DECORATION: none
+}
+#toc {
+	BORDER-RIGHT: #aaaaaa 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: =
+#aaaaaa 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: =
+#aaaaaa 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #aaaaaa 1px solid; =
+BACKGROUND-COLOR: #f9f9f9
+}
+.tocindent {
+	MARGIN-LEFT: 2em
+}
+.tocline {
+	MARGIN-BOTTOM: 0px
+}
+DIV.floatright {
+	CLEAR: right; BORDER-RIGHT: white 0px solid; BORDER-TOP: white 0.5em =
+solid; FLOAT: right; MARGIN: 0px; BORDER-LEFT: white 1.4em solid; =
+BORDER-BOTTOM: white 0.8em solid; POSITION: relative
+}
+DIV.floatright P {
+	FONT-STYLE: italic
+}
+DIV.floatleft {
+	BORDER-RIGHT: white 1.4em solid; BORDER-TOP: white 0.5em solid; FLOAT: =
+left; MARGIN: 0.3em 0.5em 0.5em 0px; BORDER-LEFT: white 0px solid; =
+BORDER-BOTTOM: white 0.8em solid; POSITION: relative
+}
+DIV.floatleft P {
+	FONT-STYLE: italic
+}
+DIV.thumb {
+	BORDER-LEFT-COLOR: white; MARGIN-BOTTOM: 0.5em; BORDER-BOTTOM-COLOR: =
+white; OVERFLOW: hidden; WIDTH: auto; BORDER-TOP-STYLE: solid; =
+BORDER-TOP-COLOR: white; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: =
+solid; BORDER-RIGHT-COLOR: white; BORDER-BOTTOM-STYLE: solid
+}
+DIV.thumb DIV {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 3px! important; =
+BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 3px! important; FONT-SIZE: =
+94%; PADDING-BOTTOM: 3px! important; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-TOP: 3px! important; BORDER-BOTTOM: #cccccc 1px solid; =
+BACKGROUND-COLOR: #f9f9f9; TEXT-ALIGN: center
+}
+DIV.thumb DIV A IMG {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; =
+BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+DIV.thumb DIV DIV.thumbcaption {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.1em; =
+BORDER-TOP-STYLE: none; PADDING-TOP: 0.3em; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+DIV.magnify {
+	DISPLAY: none
+}
+DIV.tright {
+	BORDER-TOP-WIDTH: 0.5em; CLEAR: right; BORDER-LEFT-WIDTH: 1.4em; FLOAT: =
+right; BORDER-BOTTOM-WIDTH: 0.8em; BORDER-RIGHT-WIDTH: 0px
+}
+DIV.tleft {
+	BORDER-TOP-WIDTH: 0.5em; BORDER-LEFT-WIDTH: 0px; FLOAT: left; =
+BORDER-BOTTOM-WIDTH: 0.8em; MARGIN-RIGHT: 0.5em; BORDER-RIGHT-WIDTH: =
+1.4em
+}
+IMG.thumbborder {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; =
+BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid
+}
+TABLE.rimage {
+	FLOAT: right; MARGIN-BOTTOM: 1em; MARGIN-LEFT: 1em; WIDTH: 1pt; =
+POSITION: relative; TEXT-ALIGN: center
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: white; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: black; PADDING-TOP: 0px
+}
+.noprint {
+	DISPLAY: none
+}
+DIV#jump-to-nav {
+	DISPLAY: none
+}
+DIV.top {
+	DISPLAY: none
+}
+DIV#column-one {
+	DISPLAY: none
+}
+#colophon {
+	DISPLAY: none
+}
+.editsection {
+	DISPLAY: none
+}
+.toctoggle {
+	DISPLAY: none
+}
+.tochidden {
+	DISPLAY: none
+}
+DIV#f-poweredbyico {
+	DISPLAY: none
+}
+DIV#f-copyrightico {
+	DISPLAY: none
+}
+LI#viewcount {
+	DISPLAY: none
+}
+LI#about {
+	DISPLAY: none
+}
+LI#disclaimer {
+	DISPLAY: none
+}
+LI#privacy {
+	DISPLAY: none
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+#content {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; =
+BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px! =
+important; MARGIN: 0px; BORDER-TOP-STYLE: none! important; PADDING-TOP: =
+0px! important; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: =
+none! important; BORDER-BOTTOM-STYLE: none! important
+}
+#footer {
+	BORDER-TOP: black 1px solid; BACKGROUND: white; COLOR: black
+}
+H1 {
+	FONT-WEIGHT: bold
+}
+H2 {
+	FONT-WEIGHT: bold
+}
+H3 {
+	FONT-WEIGHT: bold
+}
+H4 {
+	FONT-WEIGHT: bold
+}
+H5 {
+	FONT-WEIGHT: bold
+}
+H6 {
+	FONT-WEIGHT: bold
+}
+P {
+	MARGIN: 1em 0px; LINE-HEIGHT: 1.2em
+}
+.documentDescription {
+	MARGIN: 1em 0px; LINE-HEIGHT: 1.2em
+}
+.tocindent P {
+	MARGIN: 0px
+}
+PRE {
+	BORDER-RIGHT: black 1pt dashed; PADDING-RIGHT: 0px; BORDER-TOP: black =
+1pt dashed; PADDING-LEFT: 0px; FONT-SIZE: 8pt; BACKGROUND: white; =
+PADDING-BOTTOM: 1em; OVERFLOW: auto; BORDER-LEFT: black 1pt dashed; =
+COLOR: black; PADDING-TOP: 1em; BORDER-BOTTOM: black 1pt dashed; =
+WHITE-SPACE: pre
+}
+TABLE.listing {
+	BORDER-RIGHT: black 1pt solid; BORDER-TOP: black 1pt solid; =
+BORDER-LEFT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; =
+BORDER-COLLAPSE: collapse
+}
+TABLE.listing TD {
+	BORDER-RIGHT: black 1pt solid; BORDER-TOP: black 1pt solid; =
+BORDER-LEFT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; =
+BORDER-COLLAPSE: collapse
+}
+A {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; =
+BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px! =
+important; COLOR: black! important; PADDING-TOP: 0px! important
+}
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; =
+TEXT-DECORATION: underline
+}
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; =
+TEXT-DECORATION: underline
+}
+#content A.text.external:unknown {
+	content: " (" attr(href) ") "
+}
+#content A.autonumber.external:unknown {
+	content: " (" attr(href) ") "
+}
+#globalWrapper {
+	MIN-WIDTH: 0px! important; WIDTH: 100%! important
+}
+#content {
+	BACKGROUND: white; COLOR: black
+}
+#column-content {
+	MARGIN: 0px
+}
+#column-content #content {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; MARGIN: =
+0px; PADDING-TOP: 1em
+}
+A {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A.external {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A.new {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A.stub {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A {
+=09
+}
+A.external {
+=09
+}
+A.new {
+=09
+}
+A.stub {
+=09
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+IMG.tex {
+	VERTICAL-ALIGN: middle
+}
+SPAN.texhtml {
+	FONT-FAMILY: serif
+}
+#siteNotice {
+	DISPLAY: none
+}
+TABLE.gallery {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: =
+#cccccc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 2px; =
+BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc =
+1px solid; BACKGROUND-COLOR: #ffffff
+}
+TABLE.gallery TR {
+	VERTICAL-ALIGN: top
+}
+DIV.gallerybox {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN: =
+2px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 150px; BORDER-BOTTOM: =
+#cccccc 1px solid; BACKGROUND-COLOR: #f9f9f9
+}
+DIV.gallerybox DIV.thumb {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN: =
+2px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; =
+TEXT-ALIGN: center
+}
+DIV.gallerytext {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 94%; PADDING-BOTTOM: =
+2px; PADDING-TOP: 2px
+}
+TABLE.diff {
+	BACKGROUND: white
+}
+TD.diff-otitle {
+	BACKGROUND: #ffffff
+}
+TD.diff-ntitle {
+	BACKGROUND: #ffffff
+}
+TD.diff-addedline {
+	BORDER-RIGHT: black 2px solid; BORDER-TOP: black 2px solid; FONT-SIZE: =
+smaller; BACKGROUND: #ccffcc; BORDER-LEFT: black 2px solid; =
+BORDER-BOTTOM: black 2px solid
+}
+TD.diff-deletedline {
+	BORDER-RIGHT: black 2px dotted; BORDER-TOP: black 2px dotted; =
+FONT-SIZE: smaller; BACKGROUND: #ffffaa; BORDER-LEFT: black 2px dotted; =
+BORDER-BOTTOM: black 2px dotted
+}
+TD.diff-context {
+	FONT-SIZE: smaller; BACKGROUND: #eeeeee
+}
+.diffchange {
+	FONT-WEIGHT: bold; COLOR: silver; TEXT-DECORATION: underline
+}
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/wiki/skins/common/wikibits.js?207
+
+// MediaWiki JavaScript support functions=0A=
+=0A=
+var clientPC =3D navigator.userAgent.toLowerCase(); // Get client info=0A=
+var is_gecko =3D /gecko/.test( clientPC ) &&=0A=
+	!/khtml|spoofer|netscape\/7\.0/.test(clientPC);=0A=
+var webkit_match =3D clientPC.match(/applewebkit\/(\d+)/);=0A=
+if (webkit_match) {=0A=
+	var is_safari =3D clientPC.indexOf('applewebkit') !=3D -1 &&=0A=
+		clientPC.indexOf('spoofer') =3D=3D -1;=0A=
+	var is_safari_win =3D is_safari && clientPC.indexOf('windows') !=3D -1;=0A=
+	var webkit_version =3D parseInt(webkit_match[1]);=0A=
+}=0A=
+var is_khtml =3D navigator.vendor =3D=3D 'KDE' ||=0A=
+	( document.childNodes && !document.all && !navigator.taintEnabled );=0A=
+// For accesskeys; note that FF3+ is included here!=0A=
+var is_ff2 =3D /firefox\/[2-9]|minefield\/3/.test( clientPC );=0A=
+var is_ff2_ =3D /firefox\/2/.test( clientPC );=0A=
+// These aren't used here, but some custom scripts rely on them=0A=
+var is_ff2_win =3D is_ff2 && clientPC.indexOf('windows') !=3D -1;=0A=
+var is_ff2_x11 =3D is_ff2 && clientPC.indexOf('x11') !=3D -1;=0A=
+if (clientPC.indexOf('opera') !=3D -1) {=0A=
+	var is_opera =3D true;=0A=
+	var is_opera_preseven =3D window.opera && !document.childNodes;=0A=
+	var is_opera_seven =3D window.opera && document.childNodes;=0A=
+	var is_opera_95 =3D /opera\/(9.[5-9]|[1-9][0-9])/.test( clientPC );=0A=
+}=0A=
+=0A=
+// Global external objects used by this script.=0A=
+/*extern ta, stylepath, skin */=0A=
+=0A=
+// add any onload functions in this hook (please don't hard-code any =
+events in the xhtml source)=0A=
+var doneOnloadHook;=0A=
+=0A=
+if (!window.onloadFuncts) {=0A=
+	var onloadFuncts =3D [];=0A=
+}=0A=
+=0A=
+function addOnloadHook(hookFunct) {=0A=
+	// Allows add-on scripts to add onload functions=0A=
+	if(!doneOnloadHook) {=0A=
+		onloadFuncts[onloadFuncts.length] =3D hookFunct;=0A=
+	} else {=0A=
+		hookFunct();  // bug in MSIE script loading=0A=
+	}=0A=
+}=0A=
+=0A=
+function hookEvent(hookName, hookFunct) {=0A=
+	addHandler(window, hookName, hookFunct);=0A=
+}=0A=
+=0A=
+function importScript(page) {=0A=
+	var uri =3D wgScript + '?title=3D' +=0A=
+		encodeURIComponent(page.replace(/ =
+/g,'_')).replace('%2F','/').replace('%3A',':') +=0A=
+		'&action=3Draw&ctype=3Dtext/javascript';=0A=
+	return importScriptURI(uri);=0A=
+}=0A=
+ =0A=
+var loadedScripts =3D {}; // included-scripts tracker=0A=
+function importScriptURI(url) {=0A=
+	if (loadedScripts[url]) {=0A=
+		return null;=0A=
+	}=0A=
+	loadedScripts[url] =3D true;=0A=
+	var s =3D document.createElement('script');=0A=
+	s.setAttribute('src',url);=0A=
+	s.setAttribute('type','text/javascript');=0A=
+	document.getElementsByTagName('head')[0].appendChild(s);=0A=
+	return s;=0A=
+}=0A=
+ =0A=
+function importStylesheet(page) {=0A=
+	return importStylesheetURI(wgScript + =
+'?action=3Draw&ctype=3Dtext/css&title=3D' + =
+encodeURIComponent(page.replace(/ /g,'_')));=0A=
+}=0A=
+ =0A=
+function importStylesheetURI(url) {=0A=
+	return document.createStyleSheet ? document.createStyleSheet(url) : =
+appendCSS('@import "' + url + '";');=0A=
+}=0A=
+ =0A=
+function appendCSS(text) {=0A=
+	var s =3D document.createElement('style');=0A=
+	s.type =3D 'text/css';=0A=
+	s.rel =3D 'stylesheet';=0A=
+	if (s.styleSheet) s.styleSheet.cssText =3D text //IE=0A=
+	else s.appendChild(document.createTextNode(text + '')) //Safari =
+sometimes borks on null=0A=
+	document.getElementsByTagName('head')[0].appendChild(s);=0A=
+	return s;=0A=
+}=0A=
+=0A=
+// special stylesheet links=0A=
+if (typeof stylepath !=3D 'undefined' && typeof skin !=3D 'undefined') {=0A=
+	if (is_opera_preseven) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/Opera6Fixes.css');=0A=
+	} else if (is_opera_seven && !is_opera_95) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/Opera7Fixes.css');=0A=
+	} else if (is_opera_95) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/Opera9Fixes.css');=0A=
+	} else if (is_khtml) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/KHTMLFixes.css');=0A=
+	} else if (is_ff2_) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/FF2Fixes.css');=0A=
+	}=0A=
+}=0A=
+=0A=
+if (wgBreakFrames) {=0A=
+	// Un-trap us from framesets=0A=
+	if (window.top !=3D window) {=0A=
+		window.top.location =3D window.location;=0A=
+	}=0A=
+}=0A=
+=0A=
+function showTocToggle() {=0A=
+	if (document.createTextNode) {=0A=
+		// Uses DOM calls to avoid document.write + XHTML issues=0A=
+=0A=
+		var linkHolder =3D document.getElementById('toctitle');=0A=
+		if (!linkHolder) {=0A=
+			return;=0A=
+		}=0A=
+=0A=
+		var outerSpan =3D document.createElement('span');=0A=
+		outerSpan.className =3D 'toctoggle';=0A=
+=0A=
+		var toggleLink =3D document.createElement('a');=0A=
+		toggleLink.id =3D 'togglelink';=0A=
+		toggleLink.className =3D 'internal';=0A=
+		toggleLink.href =3D 'javascript:toggleToc()';=0A=
+		toggleLink.appendChild(document.createTextNode(tocHideText));=0A=
+=0A=
+		outerSpan.appendChild(document.createTextNode('['));=0A=
+		outerSpan.appendChild(toggleLink);=0A=
+		outerSpan.appendChild(document.createTextNode(']'));=0A=
+=0A=
+		linkHolder.appendChild(document.createTextNode(' '));=0A=
+		linkHolder.appendChild(outerSpan);=0A=
+=0A=
+		var cookiePos =3D document.cookie.indexOf("hidetoc=3D");=0A=
+		if (cookiePos > -1 && document.cookie.charAt(cookiePos + 8) =3D=3D 1) {=0A=
+			toggleToc();=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+function changeText(el, newText) {=0A=
+	// Safari work around=0A=
+	if (el.innerText) {=0A=
+		el.innerText =3D newText;=0A=
+	} else if (el.firstChild && el.firstChild.nodeValue) {=0A=
+		el.firstChild.nodeValue =3D newText;=0A=
+	}=0A=
+}=0A=
+=0A=
+function toggleToc() {=0A=
+	var toc =3D =
+document.getElementById('toc').getElementsByTagName('ul')[0];=0A=
+	var toggleLink =3D document.getElementById('togglelink');=0A=
+=0A=
+	if (toc && toggleLink && toc.style.display =3D=3D 'none') {=0A=
+		changeText(toggleLink, tocHideText);=0A=
+		toc.style.display =3D 'block';=0A=
+		document.cookie =3D "hidetoc=3D0";=0A=
+	} else {=0A=
+		changeText(toggleLink, tocShowText);=0A=
+		toc.style.display =3D 'none';=0A=
+		document.cookie =3D "hidetoc=3D1";=0A=
+	}=0A=
+}=0A=
+=0A=
+var mwEditButtons =3D [];=0A=
+var mwCustomEditButtons =3D []; // eg to add in MediaWiki:Common.js=0A=
+=0A=
+function escapeQuotes(text) {=0A=
+	var re =3D new RegExp("'","g");=0A=
+	text =3D text.replace(re,"\\'");=0A=
+	re =3D new RegExp("\\n","g");=0A=
+	text =3D text.replace(re,"\\n");=0A=
+	return escapeQuotesHTML(text);=0A=
+}=0A=
+=0A=
+function escapeQuotesHTML(text) {=0A=
+	var re =3D new RegExp('&',"g");=0A=
+	text =3D text.replace(re,"&amp;");=0A=
+	re =3D new RegExp('"',"g");=0A=
+	text =3D text.replace(re,"&quot;");=0A=
+	re =3D new RegExp('<',"g");=0A=
+	text =3D text.replace(re,"&lt;");=0A=
+	re =3D new RegExp('>',"g");=0A=
+	text =3D text.replace(re,"&gt;");=0A=
+	return text;=0A=
+}=0A=
+=0A=
+=0A=
+/**=0A=
+ * Set the accesskey prefix based on browser detection.=0A=
+ */=0A=
+var tooltipAccessKeyPrefix =3D 'alt-';=0A=
+if (is_opera) {=0A=
+	tooltipAccessKeyPrefix =3D 'shift-esc-';=0A=
+} else if (!is_safari_win && is_safari && webkit_version > 526) {=0A=
+	tooltipAccessKeyPrefix =3D 'ctrl-alt-';=0A=
+} else if (!is_safari_win && (is_safari=0A=
+		|| clientPC.indexOf('mac') !=3D -1=0A=
+		|| clientPC.indexOf('konqueror') !=3D -1 )) {=0A=
+	tooltipAccessKeyPrefix =3D 'ctrl-';=0A=
+} else if (is_ff2) {=0A=
+	tooltipAccessKeyPrefix =3D 'alt-shift-';=0A=
+}=0A=
+var tooltipAccessKeyRegexp =3D /\[(ctrl-)?(alt-)?(shift-)?(esc-)?(.)\]$/;=0A=
+=0A=
+/**=0A=
+ * Add the appropriate prefix to the accesskey shown in the tooltip.=0A=
+ * If the nodeList parameter is given, only those nodes are updated;=0A=
+ * otherwise, all the nodes that will probably have accesskeys by=0A=
+ * default are updated.=0A=
+ *=0A=
+ * @param Array nodeList -- list of elements to update=0A=
+ */=0A=
+function updateTooltipAccessKeys( nodeList ) {=0A=
+	if ( !nodeList ) {=0A=
+		// skins without a "column-one" element don't seem to have links with =
+accesskeys either=0A=
+		var columnOne =3D document.getElementById("column-one");=0A=
+		if ( columnOne )=0A=
+			updateTooltipAccessKeys( columnOne.getElementsByTagName("a") );=0A=
+		// these are rare enough that no such optimization is needed=0A=
+		updateTooltipAccessKeys( document.getElementsByTagName("input") );=0A=
+		updateTooltipAccessKeys( document.getElementsByTagName("label") );=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	for ( var i =3D 0; i < nodeList.length; i++ ) {=0A=
+		var element =3D nodeList[i];=0A=
+		var tip =3D element.getAttribute("title");=0A=
+		if ( tip && tooltipAccessKeyRegexp.exec(tip) ) {=0A=
+			tip =3D tip.replace(tooltipAccessKeyRegexp,=0A=
+					  "["+tooltipAccessKeyPrefix+"$5]");=0A=
+			element.setAttribute("title", tip );=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Add a link to one of the portlet menus on the page, including:=0A=
+ *=0A=
+ * p-cactions: Content actions (shown as tabs above the main content in =
+Monobook)=0A=
+ * p-personal: Personal tools (shown at the top right of the page in =
+Monobook)=0A=
+ * p-navigation: Navigation=0A=
+ * p-tb: Toolbox=0A=
+ *=0A=
+ * This function exists for the convenience of custom JS authors.  All=0A=
+ * but the first three parameters are optional, though providing at=0A=
+ * least an id and a tooltip is recommended.=0A=
+ *=0A=
+ * By default the new link will be added to the end of the list.  To=0A=
+ * add the link before a given existing item, pass the DOM node of=0A=
+ * that item (easily obtained with document.getElementById()) as the=0A=
+ * nextnode parameter; to add the link _after_ an existing item, pass=0A=
+ * the node's nextSibling instead.=0A=
+ *=0A=
+ * @param String portlet -- id of the target portlet ("p-cactions", =
+"p-personal", "p-navigation" or "p-tb")=0A=
+ * @param String href -- link URL=0A=
+ * @param String text -- link text (will be automatically lowercased by =
+CSS for p-cactions in Monobook)=0A=
+ * @param String id -- id of the new item, should be unique and =
+preferably have the appropriate prefix ("ca-", "pt-", "n-" or "t-")=0A=
+ * @param String tooltip -- text to show when hovering over the link, =
+without accesskey suffix=0A=
+ * @param String accesskey -- accesskey to activate this link (one =
+character, try to avoid conflicts)=0A=
+ * @param Node nextnode -- the DOM node before which the new item should =
+be added, should be another item in the same list=0A=
+ *=0A=
+ * @return Node -- the DOM node of the new item (an LI element) or null=0A=
+ */=0A=
+function addPortletLink(portlet, href, text, id, tooltip, accesskey, =
+nextnode) {=0A=
+	var node =3D document.getElementById(portlet);=0A=
+	if ( !node ) return null;=0A=
+	node =3D node.getElementsByTagName( "ul" )[0];=0A=
+	if ( !node ) return null;=0A=
+=0A=
+	var link =3D document.createElement( "a" );=0A=
+	link.appendChild( document.createTextNode( text ) );=0A=
+	link.href =3D href;=0A=
+=0A=
+	var item =3D document.createElement( "li" );=0A=
+	item.appendChild( link );=0A=
+	if ( id ) item.id =3D id;=0A=
+=0A=
+	if ( accesskey ) {=0A=
+		link.setAttribute( "accesskey", accesskey );=0A=
+		tooltip +=3D " ["+accesskey+"]";=0A=
+	}=0A=
+	if ( tooltip ) {=0A=
+		link.setAttribute( "title", tooltip );=0A=
+	}=0A=
+	if ( accesskey && tooltip ) {=0A=
+		updateTooltipAccessKeys( new Array( link ) );=0A=
+	}=0A=
+=0A=
+	if ( nextnode && nextnode.parentNode =3D=3D node )=0A=
+		node.insertBefore( item, nextnode );=0A=
+	else=0A=
+		node.appendChild( item );  // IE compatibility (?)=0A=
+=0A=
+	return item;=0A=
+}=0A=
+=0A=
+function getInnerText(el) {=0A=
+	if (typeof el =3D=3D "string") return el;=0A=
+	if (typeof el =3D=3D "undefined") { return el };=0A=
+	if (el.textContent) return el.textContent; // not needed but it is =
+faster=0A=
+	if (el.innerText) return el.innerText;     // IE doesn't have =
+textContent=0A=
+	var str =3D "";=0A=
+=0A=
+	var cs =3D el.childNodes;=0A=
+	var l =3D cs.length;=0A=
+	for (var i =3D 0; i < l; i++) {=0A=
+		switch (cs[i].nodeType) {=0A=
+			case 1: //ELEMENT_NODE=0A=
+				str +=3D ts_getInnerText(cs[i]);=0A=
+				break;=0A=
+			case 3:	//TEXT_NODE=0A=
+				str +=3D cs[i].nodeValue;=0A=
+				break;=0A=
+		}=0A=
+	}=0A=
+	return str;=0A=
+}=0A=
+=0A=
+=0A=
+/**=0A=
+ * Set up accesskeys/tooltips from the deprecated ta array.  If doId=0A=
+ * is specified, only set up for that id.  Note that this function is=0A=
+ * deprecated and will not be supported indefinitely -- use=0A=
+ * updateTooltipAccessKey() instead.=0A=
+ *=0A=
+ * @param mixed doId string or null=0A=
+ */=0A=
+function akeytt( doId ) {=0A=
+	// A lot of user scripts (and some of the code below) break if=0A=
+	// ta isn't defined, so we make sure it is.  Explictly using=0A=
+	// window.ta avoids a "ta is not defined" error.=0A=
+	if (!window.ta) window.ta =3D new Array;=0A=
+=0A=
+	// Make a local, possibly restricted, copy to avoid clobbering=0A=
+	// the original.=0A=
+	var ta;=0A=
+	if ( doId ) {=0A=
+		ta =3D [doId];=0A=
+	} else {=0A=
+		ta =3D window.ta;=0A=
+	}=0A=
+=0A=
+	// Now deal with evil deprecated ta=0A=
+	var watchCheckboxExists =3D document.getElementById( 'wpWatchthis' ) ? =
+true : false;=0A=
+	for (var id in ta) {=0A=
+		var n =3D document.getElementById(id);=0A=
+		if (n) {=0A=
+			var a =3D null;=0A=
+			var ak =3D '';=0A=
+			// Are we putting accesskey in it=0A=
+			if (ta[id][0].length > 0) {=0A=
+				// Is this object a object? If not assume it's the next child.=0A=
+=0A=
+				if (n.nodeName.toLowerCase() =3D=3D "a") {=0A=
+					a =3D n;=0A=
+				} else {=0A=
+					a =3D n.childNodes[0];=0A=
+				}=0A=
+			 	// Don't add an accesskey for the watch tab if the watch=0A=
+			 	// checkbox is also available.=0A=
+				if (a && ((id !=3D 'ca-watch' && id !=3D 'ca-unwatch') || =
+!watchCheckboxExists)) {=0A=
+					a.accessKey =3D ta[id][0];=0A=
+					ak =3D ' ['+tooltipAccessKeyPrefix+ta[id][0]+']';=0A=
+				}=0A=
+			} else {=0A=
+				// We don't care what type the object is when assigning tooltip=0A=
+				a =3D n;=0A=
+				ak =3D '';=0A=
+			}=0A=
+=0A=
+			if (a) {=0A=
+				a.title =3D ta[id][1]+ak;=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+var checkboxes;=0A=
+var lastCheckbox;=0A=
+=0A=
+function setupCheckboxShiftClick() {=0A=
+	checkboxes =3D [];=0A=
+	lastCheckbox =3D null;=0A=
+	var inputs =3D document.getElementsByTagName('input');=0A=
+	addCheckboxClickHandlers(inputs);=0A=
+}=0A=
+=0A=
+function addCheckboxClickHandlers(inputs, start) {=0A=
+	if ( !start) start =3D 0;=0A=
+=0A=
+	var finish =3D start + 250;=0A=
+	if ( finish > inputs.length )=0A=
+		finish =3D inputs.length;=0A=
+=0A=
+	for ( var i =3D start; i < finish; i++ ) {=0A=
+		var cb =3D inputs[i];=0A=
+		if ( !cb.type || cb.type.toLowerCase() !=3D 'checkbox' )=0A=
+			continue;=0A=
+		var end =3D checkboxes.length;=0A=
+		checkboxes[end] =3D cb;=0A=
+		cb.index =3D end;=0A=
+		cb.onclick =3D checkboxClickHandler;=0A=
+	}=0A=
+=0A=
+	if ( finish < inputs.length ) {=0A=
+		setTimeout( function () {=0A=
+			addCheckboxClickHandlers(inputs, finish);=0A=
+		}, 200 );=0A=
+	}=0A=
+}=0A=
+=0A=
+function checkboxClickHandler(e) {=0A=
+	if (typeof e =3D=3D 'undefined') {=0A=
+		e =3D window.event;=0A=
+	}=0A=
+	if ( !e.shiftKey || lastCheckbox =3D=3D=3D null ) {=0A=
+		lastCheckbox =3D this.index;=0A=
+		return true;=0A=
+	}=0A=
+	var endState =3D this.checked;=0A=
+	var start, finish;=0A=
+	if ( this.index < lastCheckbox ) {=0A=
+		start =3D this.index + 1;=0A=
+		finish =3D lastCheckbox;=0A=
+	} else {=0A=
+		start =3D lastCheckbox;=0A=
+		finish =3D this.index - 1;=0A=
+	}=0A=
+	for (var i =3D start; i <=3D finish; ++i ) {=0A=
+		checkboxes[i].checked =3D endState;=0A=
+	}=0A=
+	lastCheckbox =3D this.index;=0A=
+	return true;=0A=
+}=0A=
+=0A=
+function toggle_element_activation(ida,idb) {=0A=
+	if (!document.getElementById) {=0A=
+		return;=0A=
+	}=0A=
+	document.getElementById(ida).disabled=3Dtrue;=0A=
+	document.getElementById(idb).disabled=3Dfalse;=0A=
+}=0A=
+=0A=
+function toggle_element_check(ida,idb) {=0A=
+	if (!document.getElementById) {=0A=
+		return;=0A=
+	}=0A=
+	document.getElementById(ida).checked=3Dtrue;=0A=
+	document.getElementById(idb).checked=3Dfalse;=0A=
+}=0A=
+=0A=
+/*=0A=
+	Written by Jonathan Snook, http://www.snook.ca/jonathan=0A=
+	Add-ons by Robert Nyman, http://www.robertnyman.com=0A=
+	Author says "The credit comment is all it takes, no license. Go crazy =
+with it!:-)"=0A=
+	From =
+http://www.robertnyman.com/2005/11/07/the-ultimate-getelementsbyclassname=
+/=0A=
+*/=0A=
+function getElementsByClassName(oElm, strTagName, oClassNames){=0A=
+	var arrReturnElements =3D new Array();=0A=
+	if ( typeof( oElm.getElementsByClassName ) =3D=3D "function" ) {=0A=
+		/* Use a native implementation where possible FF3, Saf3.2, Opera 9.5 */=0A=
+		var arrNativeReturn =3D oElm.getElementsByClassName( oClassNames );=0A=
+		if ( strTagName =3D=3D "*" )=0A=
+			return arrNativeReturn;=0A=
+		for ( var h=3D0; h < arrNativeReturn.length; h++ ) {=0A=
+			if( arrNativeReturn[h].tagName.toLowerCase() =3D=3D =
+strTagName.toLowerCase() )=0A=
+				arrReturnElements[arrReturnElements.length] =3D arrNativeReturn[h];=0A=
+		}=0A=
+		return arrReturnElements;=0A=
+	}=0A=
+	var arrElements =3D (strTagName =3D=3D "*" && oElm.all)? oElm.all : =
+oElm.getElementsByTagName(strTagName);=0A=
+	var arrRegExpClassNames =3D new Array();=0A=
+	if(typeof oClassNames =3D=3D "object"){=0A=
+		for(var i=3D0; i<oClassNames.length; i++){=0A=
+			arrRegExpClassNames[arrRegExpClassNames.length] =3D=0A=
+				new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + =
+"(\\s|$)");=0A=
+		}=0A=
+	}=0A=
+	else{=0A=
+		arrRegExpClassNames[arrRegExpClassNames.length] =3D=0A=
+			new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)");=0A=
+	}=0A=
+	var oElement;=0A=
+	var bMatchesAll;=0A=
+	for(var j=3D0; j<arrElements.length; j++){=0A=
+		oElement =3D arrElements[j];=0A=
+		bMatchesAll =3D true;=0A=
+		for(var k=3D0; k<arrRegExpClassNames.length; k++){=0A=
+			if(!arrRegExpClassNames[k].test(oElement.className)){=0A=
+				bMatchesAll =3D false;=0A=
+				break;=0A=
+			}=0A=
+		}=0A=
+		if(bMatchesAll){=0A=
+			arrReturnElements[arrReturnElements.length] =3D oElement;=0A=
+		}=0A=
+	}=0A=
+	return (arrReturnElements)=0A=
+}=0A=
+=0A=
+function redirectToFragment(fragment) {=0A=
+	var match =3D navigator.userAgent.match(/AppleWebKit\/(\d+)/);=0A=
+	if (match) {=0A=
+		var webKitVersion =3D parseInt(match[1]);=0A=
+		if (webKitVersion < 420) {=0A=
+			// Released Safari w/ WebKit 418.9.1 messes up horribly=0A=
+			// Nightlies of 420+ are ok=0A=
+			return;=0A=
+		}=0A=
+	}=0A=
+	if (is_gecko) {=0A=
+		// Mozilla needs to wait until after load, otherwise the window =
+doesn't scroll=0A=
+		addOnloadHook(function () {=0A=
+			if (window.location.hash =3D=3D "")=0A=
+				window.location.hash =3D fragment;=0A=
+		});=0A=
+	} else {=0A=
+		if (window.location.hash =3D=3D "")=0A=
+			window.location.hash =3D fragment;=0A=
+	}=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Table sorting script based on one (c) 1997-2006 Stuart Langridge and =
+Joost=0A=
+ * de Valk:=0A=
+ * http://www.joostdevalk.nl/code/sortable-table/=0A=
+ * http://www.kryogenix.org/code/browser/sorttable/=0A=
+ *=0A=
+ * @todo don't break on colspans/rowspans (bug 8028)=0A=
+ * @todo language-specific digit grouping/decimals (bug 8063)=0A=
+ * @todo support all accepted date formats (bug 8226)=0A=
+ */=0A=
+=0A=
+var ts_image_path =3D stylepath+"/common/images/";=0A=
+var ts_image_up =3D "sort_up.gif";=0A=
+var ts_image_down =3D "sort_down.gif";=0A=
+var ts_image_none =3D "sort_none.gif";=0A=
+var ts_europeandate =3D wgContentLanguage !=3D "en"; // The =
+non-American-inclined can change to "true"=0A=
+var ts_alternate_row_colors =3D false;=0A=
+var ts_number_transform_table =3D null;=0A=
+var ts_number_regex =3D null;=0A=
+=0A=
+function sortables_init() {=0A=
+	var idnum =3D 0;=0A=
+	// Find all tables with class sortable and make them sortable=0A=
+	var tables =3D getElementsByClassName(document, "table", "sortable");=0A=
+	for (var ti =3D 0; ti < tables.length ; ti++) {=0A=
+		if (!tables[ti].id) {=0A=
+			tables[ti].setAttribute('id','sortable_table_id_'+idnum);=0A=
+			++idnum;=0A=
+		}=0A=
+		ts_makeSortable(tables[ti]);=0A=
+	}=0A=
+}=0A=
+=0A=
+function ts_makeSortable(table) {=0A=
+	var firstRow;=0A=
+	if (table.rows && table.rows.length > 0) {=0A=
+		if (table.tHead && table.tHead.rows.length > 0) {=0A=
+			firstRow =3D table.tHead.rows[table.tHead.rows.length-1];=0A=
+		} else {=0A=
+			firstRow =3D table.rows[0];=0A=
+		}=0A=
+	}=0A=
+	if (!firstRow) return;=0A=
+=0A=
+	// We have a first row: assume it's the header, and make its contents =
+clickable links=0A=
+	for (var i =3D 0; i < firstRow.cells.length; i++) {=0A=
+		var cell =3D firstRow.cells[i];=0A=
+		if ((" "+cell.className+" ").indexOf(" unsortable ") =3D=3D -1) {=0A=
+			cell.innerHTML +=3D '&nbsp;&nbsp;'=0A=
+				+ '<a href=3D"#" class=3D"sortheader" '=0A=
+				+ 'onclick=3D"ts_resortTable(this);return false;">'=0A=
+				+ '<span class=3D"sortarrow">'=0A=
+				+ '<img src=3D"'=0A=
+				+ ts_image_path=0A=
+				+ ts_image_none=0A=
+				+ '" alt=3D"&darr;"/></span></a>';=0A=
+		}=0A=
+	}=0A=
+	if (ts_alternate_row_colors) {=0A=
+		ts_alternate(table);=0A=
+	}=0A=
+}=0A=
+=0A=
+function ts_getInnerText(el) {=0A=
+	return getInnerText( el );=0A=
+}=0A=
+=0A=
+function ts_resortTable(lnk) {=0A=
+	// get the span=0A=
+	var span =3D lnk.getElementsByTagName('span')[0];=0A=
+=0A=
+	var td =3D lnk.parentNode;=0A=
+	var tr =3D td.parentNode;=0A=
+	var column =3D td.cellIndex;=0A=
+=0A=
+	var table =3D tr.parentNode;=0A=
+	while (table && !(table.tagName && table.tagName.toLowerCase() =3D=3D =
+'table'))=0A=
+		table =3D table.parentNode;=0A=
+	if (!table) return;=0A=
+=0A=
+	if (table.rows.length <=3D 1) return;=0A=
+=0A=
+	// Generate the number transform table if it's not done already=0A=
+	if (ts_number_transform_table =3D=3D null) {=0A=
+		ts_initTransformTable();=0A=
+	}=0A=
+=0A=
+	// Work out a type for the column=0A=
+	// Skip the first row if that's where the headings are=0A=
+	var rowStart =3D (table.tHead && table.tHead.rows.length > 0 ? 0 : 1);=0A=
+=0A=
+	var itm =3D "";=0A=
+	for (var i =3D rowStart; i < table.rows.length; i++) {=0A=
+		if (table.rows[i].cells.length > column) {=0A=
+			itm =3D ts_getInnerText(table.rows[i].cells[column]);=0A=
+			itm =3D itm.replace(/^[\s\xa0]+/, "").replace(/[\s\xa0]+$/, "");=0A=
+			if (itm !=3D "") break;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// TODO: bug 8226, localised date formats=0A=
+	var sortfn =3D ts_sort_generic;=0A=
+	var preprocessor =3D ts_toLowerCase;=0A=
+	if (/^\d\d[\/. -][a-zA-Z]{3}[\/. -]\d\d\d\d$/.test(itm)) {=0A=
+		preprocessor =3D ts_dateToSortKey;=0A=
+	} else if (/^\d\d[\/.-]\d\d[\/.-]\d\d\d\d$/.test(itm)) {=0A=
+		preprocessor =3D ts_dateToSortKey;=0A=
+	} else if (/^\d\d[\/.-]\d\d[\/.-]\d\d$/.test(itm)) {=0A=
+		preprocessor =3D ts_dateToSortKey;=0A=
+	// pound dollar euro yen currency cents=0A=
+	} else if (/(^[\u00a3$\u20ac\u00a4\u00a5]|\u00a2$)/.test(itm)) {=0A=
+		preprocessor =3D ts_currencyToSortKey;=0A=
+	} else if (ts_number_regex.test(itm)) {=0A=
+		preprocessor =3D ts_parseFloat;=0A=
+	}=0A=
+=0A=
+	var reverse =3D (span.getAttribute("sortdir") =3D=3D 'down');=0A=
+=0A=
+	var newRows =3D new Array();=0A=
+	var staticRows =3D new Array();=0A=
+	for (var j =3D rowStart; j < table.rows.length; j++) {=0A=
+		var row =3D table.rows[j];=0A=
+		if((" "+row.className+" ").indexOf(" unsortable ") < 0) {=0A=
+			var keyText =3D ts_getInnerText(row.cells[column]);=0A=
+			var oldIndex =3D (reverse ? -j : j);=0A=
+			var preprocessed =3D preprocessor( keyText );=0A=
+=0A=
+			newRows[newRows.length] =3D new Array(row, preprocessed, oldIndex);=0A=
+		} else staticRows[staticRows.length] =3D new Array(row, false, =
+j-rowStart);=0A=
+	}=0A=
+=0A=
+	newRows.sort(sortfn);=0A=
+=0A=
+	var arrowHTML;=0A=
+	if (reverse) {=0A=
+		arrowHTML =3D '<img src=3D"'+ ts_image_path + ts_image_down + '" =
+alt=3D"&darr;"/>';=0A=
+		newRows.reverse();=0A=
+		span.setAttribute('sortdir','up');=0A=
+	} else {=0A=
+		arrowHTML =3D '<img src=3D"'+ ts_image_path + ts_image_up + '" =
+alt=3D"&uarr;"/>';=0A=
+		span.setAttribute('sortdir','down');=0A=
+	}=0A=
+=0A=
+	for (var i =3D 0; i < staticRows.length; i++) {=0A=
+		var row =3D staticRows[i];=0A=
+		newRows.splice(row[2], 0, row);=0A=
+	}=0A=
+=0A=
+	// We appendChild rows that already exist to the tbody, so it moves =
+them rather than creating new ones=0A=
+	// don't do sortbottom rows=0A=
+	for (var i =3D 0; i < newRows.length; i++) {=0A=
+		if ((" "+newRows[i][0].className+" ").indexOf(" sortbottom ") =3D=3D =
+-1)=0A=
+			table.tBodies[0].appendChild(newRows[i][0]);=0A=
+	}=0A=
+	// do sortbottom rows only=0A=
+	for (var i =3D 0; i < newRows.length; i++) {=0A=
+		if ((" "+newRows[i][0].className+" ").indexOf(" sortbottom ") !=3D -1)=0A=
+			table.tBodies[0].appendChild(newRows[i][0]);=0A=
+	}=0A=
+=0A=
+	// Delete any other arrows there may be showing=0A=
+	var spans =3D getElementsByClassName(tr, "span", "sortarrow");=0A=
+	for (var i =3D 0; i < spans.length; i++) {=0A=
+		spans[i].innerHTML =3D '<img src=3D"'+ ts_image_path + ts_image_none + =
+'" alt=3D"&darr;"/>';=0A=
+	}=0A=
+	span.innerHTML =3D arrowHTML;=0A=
+=0A=
+	if (ts_alternate_row_colors) {=0A=
+		ts_alternate(table);=0A=
+	}=0A=
+}=0A=
+=0A=
+function ts_initTransformTable() {=0A=
+	if ( typeof wgSeparatorTransformTable =3D=3D "undefined"=0A=
+			|| ( wgSeparatorTransformTable[0] =3D=3D '' && =
+wgDigitTransformTable[2] =3D=3D '' ) )=0A=
+	{=0A=
+		digitClass =3D "[0-9,.]";=0A=
+		ts_number_transform_table =3D false;=0A=
+	} else {=0A=
+		ts_number_transform_table =3D {};=0A=
+		// Unpack the transform table=0A=
+		// Separators=0A=
+		ascii =3D wgSeparatorTransformTable[0].split("\t");=0A=
+		localised =3D wgSeparatorTransformTable[1].split("\t");=0A=
+		for ( var i =3D 0; i < ascii.length; i++ ) { =0A=
+			ts_number_transform_table[localised[i]] =3D ascii[i];=0A=
+		}=0A=
+		// Digits=0A=
+		ascii =3D wgDigitTransformTable[0].split("\t");=0A=
+		localised =3D wgDigitTransformTable[1].split("\t");=0A=
+		for ( var i =3D 0; i < ascii.length; i++ ) { =0A=
+			ts_number_transform_table[localised[i]] =3D ascii[i];=0A=
+		}=0A=
+=0A=
+		// Construct regex for number identification=0A=
+		digits =3D ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ',', =
+'\\.'];=0A=
+		maxDigitLength =3D 1;=0A=
+		for ( var digit in ts_number_transform_table ) {=0A=
+			// Escape regex metacharacters=0A=
+			digits.push( =0A=
+				digit.replace( /[\\\\$\*\+\?\.\(\)\|\{\}\[\]\-]/,=0A=
+					function( s ) { return '\\' + s; } )=0A=
+			);=0A=
+			if (digit.length > maxDigitLength) {=0A=
+				maxDigitLength =3D digit.length;=0A=
+			}=0A=
+		}=0A=
+		if ( maxDigitLength > 1 ) {=0A=
+			digitClass =3D '[' + digits.join( '', digits ) + ']';=0A=
+		} else {=0A=
+			digitClass =3D '(' + digits.join( '|', digits ) + ')';=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// We allow a trailing percent sign, which we just strip.  This works =
+fine=0A=
+	// if percents and regular numbers aren't being mixed.=0A=
+	ts_number_regex =3D new RegExp(=0A=
+		"^(" +=0A=
+			"[+-]?[0-9][0-9,]*(\\.[0-9,]*)?(E[+-]?[0-9][0-9,]*)?" + // =
+Fortran-style scientific=0A=
+			"|" +=0A=
+			"[+-]?" + digitClass + "+%?" + // Generic localised=0A=
+		")$", "i"=0A=
+	);=0A=
+}=0A=
+=0A=
+function ts_toLowerCase( s ) {=0A=
+	return s.toLowerCase();=0A=
+}=0A=
+=0A=
+function ts_dateToSortKey(date) {	=0A=
+	// y2k notes: two digit years less than 50 are treated as 20XX, greater =
+than 50 are treated as 19XX=0A=
+	if (date.length =3D=3D 11) {=0A=
+		switch (date.substr(3,3).toLowerCase()) {=0A=
+			case "jan": var month =3D "01"; break;=0A=
+			case "feb": var month =3D "02"; break;=0A=
+			case "mar": var month =3D "03"; break;=0A=
+			case "apr": var month =3D "04"; break;=0A=
+			case "may": var month =3D "05"; break;=0A=
+			case "jun": var month =3D "06"; break;=0A=
+			case "jul": var month =3D "07"; break;=0A=
+			case "aug": var month =3D "08"; break;=0A=
+			case "sep": var month =3D "09"; break;=0A=
+			case "oct": var month =3D "10"; break;=0A=
+			case "nov": var month =3D "11"; break;=0A=
+			case "dec": var month =3D "12"; break;=0A=
+			// default: var month =3D "00";=0A=
+		}=0A=
+		return date.substr(7,4)+month+date.substr(0,2);=0A=
+	} else if (date.length =3D=3D 10) {=0A=
+		if (ts_europeandate =3D=3D false) {=0A=
+			return date.substr(6,4)+date.substr(0,2)+date.substr(3,2);=0A=
+		} else {=0A=
+			return date.substr(6,4)+date.substr(3,2)+date.substr(0,2);=0A=
+		}=0A=
+	} else if (date.length =3D=3D 8) {=0A=
+		yr =3D date.substr(6,2);=0A=
+		if (parseInt(yr) < 50) { =0A=
+			yr =3D '20'+yr; =0A=
+		} else { =0A=
+			yr =3D '19'+yr; =0A=
+		}=0A=
+		if (ts_europeandate =3D=3D true) {=0A=
+			return yr+date.substr(3,2)+date.substr(0,2);=0A=
+		} else {=0A=
+			return yr+date.substr(0,2)+date.substr(3,2);=0A=
+		}=0A=
+	}=0A=
+	return "00000000";=0A=
+}=0A=
+=0A=
+function ts_parseFloat( s ) {=0A=
+	if ( !s ) {=0A=
+		return 0;=0A=
+	}=0A=
+	if (ts_number_transform_table !=3D false) {=0A=
+		var newNum =3D '', c;=0A=
+		=0A=
+		for ( var p =3D 0; p < s.length; p++ ) {=0A=
+			c =3D s.charAt( p );=0A=
+			if (c in ts_number_transform_table) {=0A=
+				newNum +=3D ts_number_transform_table[c];=0A=
+			} else {=0A=
+				newNum +=3D c;=0A=
+			}=0A=
+		}=0A=
+		s =3D newNum;=0A=
+	}=0A=
+=0A=
+	num =3D parseFloat(s.replace(/,/g, ""));=0A=
+	return (isNaN(num) ? 0 : num);=0A=
+}=0A=
+=0A=
+function ts_currencyToSortKey( s ) {=0A=
+	return ts_parseFloat(s.replace(/[^0-9.,]/g,''));=0A=
+}=0A=
+=0A=
+function ts_sort_generic(a, b) {=0A=
+	return a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : a[2] - b[2];=0A=
+}=0A=
+=0A=
+function ts_alternate(table) {=0A=
+	// Take object table and get all it's tbodies.=0A=
+	var tableBodies =3D table.getElementsByTagName("tbody");=0A=
+	// Loop through these tbodies=0A=
+	for (var i =3D 0; i < tableBodies.length; i++) {=0A=
+		// Take the tbody, and get all it's rows=0A=
+		var tableRows =3D tableBodies[i].getElementsByTagName("tr");=0A=
+		// Loop through these rows=0A=
+		// Start at 1 because we want to leave the heading row untouched=0A=
+		for (var j =3D 0; j < tableRows.length; j++) {=0A=
+			// Check if j is even, and apply classes for both possible results=0A=
+			var oldClasses =3D tableRows[j].className.split(" ");=0A=
+			var newClassName =3D "";=0A=
+			for (var k =3D 0; k < oldClasses.length; k++) {=0A=
+				if (oldClasses[k] !=3D "" && oldClasses[k] !=3D "even" && =
+oldClasses[k] !=3D "odd")=0A=
+					newClassName +=3D oldClasses[k] + " ";=0A=
+			}=0A=
+			tableRows[j].className =3D newClassName + (j % 2 =3D=3D 0 ? "even" : =
+"odd");=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/*=0A=
+ * End of table sorting code=0A=
+ */=0A=
+ =0A=
+ =0A=
+/**=0A=
+ * Add a cute little box at the top of the screen to inform the user of=0A=
+ * something, replacing any preexisting message.=0A=
+ *=0A=
+ * @param String -or- Dom Object message HTML to be put inside the right =
+div=0A=
+ * @param String className   Used in adding a class; should be different =
+for each=0A=
+ *   call to allow CSS/JS to hide different boxes.  null =3D no class =
+used.=0A=
+ * @return Boolean       True on success, false on failure=0A=
+ */=0A=
+function jsMsg( message, className ) {=0A=
+	if ( !document.getElementById ) {=0A=
+		return false;=0A=
+	}=0A=
+	// We special-case skin structures provided by the software.  Skins that=0A=
+	// choose to abandon or significantly modify our formatting can just =
+define=0A=
+	// an mw-js-message div to start with.=0A=
+	var messageDiv =3D document.getElementById( 'mw-js-message' );=0A=
+	if ( !messageDiv ) {=0A=
+		messageDiv =3D document.createElement( 'div' );=0A=
+		if ( document.getElementById( 'column-content' )=0A=
+		&& document.getElementById( 'content' ) ) {=0A=
+			// MonoBook, presumably=0A=
+			document.getElementById( 'content' ).insertBefore(=0A=
+				messageDiv,=0A=
+				document.getElementById( 'content' ).firstChild=0A=
+			);=0A=
+		} else if ( document.getElementById('content')=0A=
+		&& document.getElementById( 'article' ) ) {=0A=
+			// Non-Monobook but still recognizable (old-style)=0A=
+			document.getElementById( 'article').insertBefore(=0A=
+				messageDiv,=0A=
+				document.getElementById( 'article' ).firstChild=0A=
+			);=0A=
+		} else {=0A=
+			return false;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	messageDiv.setAttribute( 'id', 'mw-js-message' );=0A=
+	messageDiv.style.display =3D 'block';=0A=
+	if( className ) {=0A=
+		messageDiv.setAttribute( 'class', 'mw-js-message-'+className );=0A=
+	}=0A=
+	=0A=
+	if (typeof message =3D=3D=3D 'object') {=0A=
+		while (messageDiv.hasChildNodes()) // Remove old content=0A=
+			messageDiv.removeChild(messageDiv.firstChild);=0A=
+		messageDiv.appendChild (message); // Append new content=0A=
+	}=0A=
+	else {=0A=
+		messageDiv.innerHTML =3D message;=0A=
+	}=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Inject a cute little progress spinner after the specified element=0A=
+ *=0A=
+ * @param element Element to inject after=0A=
+ * @param id Identifier string (for use with removeSpinner(), below)=0A=
+ */=0A=
+function injectSpinner( element, id ) {=0A=
+	var spinner =3D document.createElement( "img" );=0A=
+	spinner.id =3D "mw-spinner-" + id;=0A=
+	spinner.src =3D stylepath + "/common/images/spinner.gif";=0A=
+	spinner.alt =3D spinner.title =3D "...";=0A=
+	if( element.nextSibling ) {=0A=
+		element.parentNode.insertBefore( spinner, element.nextSibling );=0A=
+	} else {=0A=
+		element.parentNode.appendChild( spinner );=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Remove a progress spinner added with injectSpinner()=0A=
+ *=0A=
+ * @param id Identifier string=0A=
+ */=0A=
+function removeSpinner( id ) {=0A=
+	var spinner =3D document.getElementById( "mw-spinner-" + id );=0A=
+	if( spinner ) {=0A=
+		spinner.parentNode.removeChild( spinner );=0A=
+	}=0A=
+}=0A=
+=0A=
+function runOnloadHook() {=0A=
+	// don't run anything below this for non-dom browsers=0A=
+	if (doneOnloadHook || !(document.getElementById && =
+document.getElementsByTagName)) {=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	// set this before running any hooks, since any errors below=0A=
+	// might cause the function to terminate prematurely=0A=
+	doneOnloadHook =3D true;=0A=
+=0A=
+	updateTooltipAccessKeys( null );=0A=
+	akeytt( null );=0A=
+	setupCheckboxShiftClick();=0A=
+	sortables_init();=0A=
+=0A=
+	// Run any added-on functions=0A=
+	for (var i =3D 0; i < onloadFuncts.length; i++) {=0A=
+		onloadFuncts[i]();=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Add an event handler to an element=0A=
+ *=0A=
+ * @param Element element Element to add handler to=0A=
+ * @param String attach Event to attach to=0A=
+ * @param callable handler Event handler callback=0A=
+ */=0A=
+function addHandler( element, attach, handler ) {=0A=
+	if( window.addEventListener ) {=0A=
+		element.addEventListener( attach, handler, false );=0A=
+	} else if( window.attachEvent ) {=0A=
+		element.attachEvent( 'on' + attach, handler );=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Add a click event handler to an element=0A=
+ *=0A=
+ * @param Element element Element to add handler to=0A=
+ * @param callable handler Event handler callback=0A=
+ */=0A=
+function addClickHandler( element, handler ) {=0A=
+	addHandler( element, 'click', handler );=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Removes an event handler from an element=0A=
+ *=0A=
+ * @param Element element Element to remove handler from=0A=
+ * @param String remove Event to remove=0A=
+ * @param callable handler Event handler callback to remove=0A=
+ */=0A=
+function removeHandler( element, remove, handler ) {=0A=
+	if( window.removeEventListener ) {=0A=
+		element.removeEventListener( remove, handler, false );=0A=
+	} else if( window.detachEvent ) {=0A=
+		element.detachEvent( 'on' + remove, handler );=0A=
+	}=0A=
+}=0A=
+//note: all skins should call runOnloadHook() at the end of html output,=0A=
+//      so the below should be redundant. It's there just in case.=0A=
+hookEvent("load", runOnloadHook);=0A=
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/wiki/skins/common/ajax.js?207
+
+// remote scripting library=0A=
+// (c) copyright 2005 modernmethod, inc=0A=
+var sajax_debug_mode =3D false;=0A=
+var sajax_request_type =3D "GET";=0A=
+=0A=
+/**=0A=
+* if sajax_debug_mode is true, this function outputs given the message =
+into =0A=
+* the element with id =3D sajax_debug; if no such element exists in the =
+document, =0A=
+* it is injected.=0A=
+*/=0A=
+function sajax_debug(text) {=0A=
+	if (!sajax_debug_mode) return false;=0A=
+=0A=
+	var e=3D document.getElementById('sajax_debug');=0A=
+=0A=
+	if (!e) {=0A=
+		e=3D document.createElement("p");=0A=
+		e.className=3D 'sajax_debug';=0A=
+		e.id=3D 'sajax_debug';=0A=
+=0A=
+		var b=3D document.getElementsByTagName("body")[0];=0A=
+=0A=
+		if (b.firstChild) b.insertBefore(e, b.firstChild);=0A=
+		else b.appendChild(e);=0A=
+	}=0A=
+=0A=
+	var m=3D document.createElement("div");=0A=
+	m.appendChild( document.createTextNode( text ) );=0A=
+=0A=
+	e.appendChild( m );=0A=
+=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/**=0A=
+* compatibility wrapper for creating a new XMLHttpRequest object.=0A=
+*/=0A=
+function sajax_init_object() {=0A=
+	sajax_debug("sajax_init_object() called..")=0A=
+	var A;=0A=
+	try {=0A=
+		// Try the new style before ActiveX so we don't=0A=
+		// unnecessarily trigger warnings in IE 7 when=0A=
+		// set to prompt about ActiveX usage=0A=
+		A =3D new XMLHttpRequest();=0A=
+	} catch (e) {=0A=
+		try {=0A=
+			A=3Dnew ActiveXObject("Msxml2.XMLHTTP");=0A=
+		} catch (e) {=0A=
+			try {=0A=
+				A=3Dnew ActiveXObject("Microsoft.XMLHTTP");=0A=
+			} catch (oc) {=0A=
+				A=3Dnull;=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	if (!A)=0A=
+		sajax_debug("Could not create connection object.");=0A=
+=0A=
+	return A;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Perform an ajax call to mediawiki. Calls are handeled by =
+AjaxDispatcher.php=0A=
+*   func_name - the name of the function to call. Must be registered in =
+$wgAjaxExportList=0A=
+*   args - an array of arguments to that function=0A=
+*   target - the target that will handle the result of the call. If this =
+is a function,=0A=
+*            if will be called with the XMLHttpRequest as a parameter; =
+if it's an input=0A=
+*            element, its value will be set to the resultText; if it's =
+another type of=0A=
+*            element, its innerHTML will be set to the resultText.=0A=
+*=0A=
+* Example:=0A=
+*    sajax_do_call('doFoo', [1, 2, 3], =
+document.getElementById("showFoo"));=0A=
+*=0A=
+* This will call the doFoo function via MediaWiki's AjaxDispatcher, with=0A=
+* (1, 2, 3) as the parameter list, and will show the result in the =
+element=0A=
+* with id =3D showFoo=0A=
+*/=0A=
+function sajax_do_call(func_name, args, target) {=0A=
+	var i, x, n;=0A=
+	var uri;=0A=
+	var post_data;=0A=
+	uri =3D wgServer +=0A=
+		((wgScript =3D=3D null) ? (wgScriptPath + "/index.php") : wgScript) +=0A=
+		"?action=3Dajax";=0A=
+	if (sajax_request_type =3D=3D "GET") {=0A=
+		if (uri.indexOf("?") =3D=3D -1)=0A=
+			uri =3D uri + "?rs=3D" + encodeURIComponent(func_name);=0A=
+		else=0A=
+			uri =3D uri + "&rs=3D" + encodeURIComponent(func_name);=0A=
+		for (i =3D 0; i < args.length; i++)=0A=
+			uri =3D uri + "&rsargs[]=3D" + encodeURIComponent(args[i]);=0A=
+		//uri =3D uri + "&rsrnd=3D" + new Date().getTime();=0A=
+		post_data =3D null;=0A=
+	} else {=0A=
+		post_data =3D "rs=3D" + encodeURIComponent(func_name);=0A=
+		for (i =3D 0; i < args.length; i++)=0A=
+			post_data =3D post_data + "&rsargs[]=3D" + =
+encodeURIComponent(args[i]);=0A=
+	}=0A=
+	x =3D sajax_init_object();=0A=
+	if (!x) {=0A=
+		alert("AJAX not supported");=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	try {=0A=
+		x.open(sajax_request_type, uri, true);=0A=
+	} catch (e) {=0A=
+		if (window.location.hostname =3D=3D "localhost") {=0A=
+			alert("Your browser blocks XMLHttpRequest to 'localhost', try using a =
+real hostname for development/testing.");=0A=
+		}=0A=
+		throw e;=0A=
+	}=0A=
+	if (sajax_request_type =3D=3D "POST") {=0A=
+		x.setRequestHeader("Method", "POST " + uri + " HTTP/1.1");=0A=
+		x.setRequestHeader("Content-Type", =
+"application/x-www-form-urlencoded");=0A=
+	}=0A=
+	x.setRequestHeader("Pragma", "cache=3Dyes");=0A=
+	x.setRequestHeader("Cache-Control", "no-transform");=0A=
+	x.onreadystatechange =3D function() {=0A=
+		if (x.readyState !=3D 4)=0A=
+			return;=0A=
+=0A=
+		sajax_debug("received (" + x.status + " " + x.statusText + ") " + =
+x.responseText);=0A=
+=0A=
+		//if (x.status !=3D 200)=0A=
+		//	alert("Error: " + x.status + " " + x.statusText + ": " + =
+x.responseText);=0A=
+		//else=0A=
+=0A=
+		if ( typeof( target ) =3D=3D 'function' ) {=0A=
+			target( x );=0A=
+		}=0A=
+		else if ( typeof( target ) =3D=3D 'object' ) {=0A=
+			if ( target.tagName =3D=3D 'INPUT' ) {=0A=
+				if (x.status =3D=3D 200) target.value=3D x.responseText;=0A=
+				//else alert("Error: " + x.status + " " + x.statusText + " (" + =
+x.responseText + ")");=0A=
+			}=0A=
+			else {=0A=
+				if (x.status =3D=3D 200) target.innerHTML =3D x.responseText;=0A=
+				else target.innerHTML=3D "<div class=3D'error'>Error: " + x.status + =
+" " + x.statusText + " (" + x.responseText + ")</div>";=0A=
+			}=0A=
+		}=0A=
+		else {=0A=
+			alert("bad target for sajax_do_call: not a function or object: " + =
+target);=0A=
+		}=0A=
+=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	sajax_debug(func_name + " uri =3D " + uri + " / post =3D " + post_data);=0A=
+	x.send(post_data);=0A=
+	sajax_debug(func_name + " waiting..");=0A=
+	delete x;=0A=
+=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/**=0A=
+ * @return boolean whether the browser supports XMLHttpRequest=0A=
+ */=0A=
+function wfSupportsAjax() {=0A=
+	var request =3D sajax_init_object();=0A=
+	var supportsAjax =3D request ? true : false;=0A=
+	delete request;=0A=
+	return supportsAjax;=0A=
+}=0A=
+=0A=
+
+------=_NextPart_000_0000_01CC4619.50CD99C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://collectd.org/wiki/index.php?title=-&action=raw&gen=js&useskin=lessantique
+
+/* generated javascript */=0A=
+var skin =3D 'lessantique';=0A=
+var stylepath =3D '/wiki/skins';=0A=
+=0A=
+/* MediaWiki:Common.js */=0A=
+/* Any JavaScript here will be loaded for all users on every page load. =
+*/=0A=
+=0A=
+/* MediaWiki:Lessantique.js */=0A=
+
+------=_NextPart_000_0000_01CC4619.50CD99C0--

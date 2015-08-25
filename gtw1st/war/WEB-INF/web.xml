@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>HiService</servlet-name>
+    <servlet-class>gwt1st.server.HiService</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>gwt1st.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+<servlet> 
+  <servlet-name>HttpProxy</servlet-name> 
+  <servlet-class>com.jsos.httpproxy.HttpProxyServlet</servlet-class> 
+	<init-param> 
+	  <param-name>host</param-name> 
+	  <param-value>http://api.search.yahoo.com/WebSearchService/V1/webSearch</param-value> 
+	</init-param> 
+</servlet>
+<servlet> 
+  <servlet-name>HttpProxyTRAN</servlet-name> 
+  <servlet-class>com.jsos.httpproxy.HttpProxyServlet</servlet-class> 
+
+	<init-param> 
+	  <param-name>rewriteHost</param-name> 
+	  <param-value>true</param-value> 
+	</init-param> 
+	<init-param> 
+	  <param-name>host</param-name> 
+	  <param-value>http://translate.google.com/translate?</param-value> 
+	</init-param> 
+</servlet>
+    <servlet> 
+     <servlet-name>FileManager</servlet-name> 
+     <servlet-class>com.jsos.fmanager.FileManager</servlet-class> 
+     <init-param> 
+      <param-name>config</param-name> 
+      <param-value>path_to_your_configuration_file</param-value> 
+     </init-param> 
+    </servlet>
+<servlet> 
+     <servlet-name>ProxyServlet</servlet-name> 
+     <servlet-class>gwt1st.server.ProxyServlet</servlet-class> 
+     <init-param> 
+      <param-name>proxyHost</param-name> 
+      <param-value>localhost</param-value> 
+     </init-param> 
+     <init-param> 
+      <param-name>proxyPath</param-name> 
+      <param-value>__proxyPath__</param-value> 
+     </init-param> 
+     <init-param> 
+      <param-name>0prefixPath</param-name> 
+      <param-value>__prefixPath__</param-value> 
+     </init-param> 
+     <init-param> 
+      <param-name>maxFileUploadSize</param-name> 
+      <param-value>102410</param-value> 
+     </init-param> 
+     <init-param> 
+      <param-name>proxyPort</param-name> 
+      <param-value>80</param-value> 
+     </init-param> 
+    </servlet>
+
+    <servlet-mapping> 
+     <servlet-name>ProxyServlet</servlet-name> 
+     <url-pattern>/servlet/ProxyServlet</url-pattern> 
+    </servlet-mapping>
+    <servlet-mapping> 
+     <servlet-name>FileManager</servlet-name> 
+     <url-pattern>/servlet/FileManager</url-pattern> 
+    </servlet-mapping>
+<servlet-mapping> 
+  <servlet-name>HttpProxy</servlet-name> 
+  <url-pattern>/servlet/yahoo</url-pattern> 
+</servlet-mapping>
+<servlet-mapping> 
+  <servlet-name>HttpProxyTRAN</servlet-name> 
+  <url-pattern>/servlet/translate</url-pattern> 
+</servlet-mapping>
+
+  
+  <servlet-mapping>
+    <servlet-name>HiService</servlet-name>
+    <url-pattern>/gtw1st/hi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/gtw1st/greet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Gtw1st.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

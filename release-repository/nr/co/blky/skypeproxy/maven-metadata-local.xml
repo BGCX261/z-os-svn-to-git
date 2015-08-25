@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>nr.co.blky</groupId>
+  <artifactId>skypeproxy</artifactId>
+  <version>0.0.9</version>
+  <versioning>
+    <versions>
+      <version>0.0.9</version>
+      <version>0.0.10</version>
+      <version>0.0.11-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120619132705</lastUpdated>
+  </versioning>
+</metadata>
